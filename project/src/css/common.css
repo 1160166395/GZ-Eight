@@ -3,7 +3,7 @@
 
 #Y_header .site-left { line-height: 30px; }
 
-#Y_header .site-left .fs { margin-right: 10px; }
+#Y_header .site-left .fs { margin-right: 10px; color: #444; }
 
 #Y_header .site-left .er { color: #008842; position: relative; }
 
@@ -11,6 +11,106 @@
 
 #Y_header .site-right li { float: left; }
 
-#Y_header .site-right li a { padding: 0 20px 0 10px; line-height: 30px; position: relative; }
+#Y_header .site-right li a { color: #444; padding: 0 10px 0 30px; line-height: 30px; position: relative; }
 
-#Y_header .site-right li a s { background: url(../img/header-img.png) no-repeat 0 0; width: 8px; height: 4px; position: absolute; right: -15px; top: 13px; }
+#Y_header .site-right li a s { background: url(../img/header-img.png) no-repeat -39px 0; width: 20px; height: 18px; position: absolute; right: 80px; top: -2px; }
+
+#Y_header .site-right li a .myback, #Y_header .site-right li a .phoneback { background: url(../img/header-img.png) no-repeat 8px 0; left: 75px; top: 5px; }
+
+#Y_header .site-right li a .phone { background: url(../img/header-img.png) no-repeat -62px 0; }
+
+#Y_header .site-right li a .phoneback { background: url(../img/header-img.png) no-repeat 8px 0; }
+
+#Y_header .site-right li a .save { background: url(../img/header-img.png) no-repeat -147px 0; left: 7px; top: -2px; }
+
+#Y_header .site-right li a .gift { background: url(../img/header-img.png) no-repeat -86px 0; left: 8px; top: -2px; }
+
+#Y_header .site-right li .log { padding-left: 10px; }
+
+#Y_header .site-right li .myr { padding-right: 30px; }
+
+#Y_header .logo { height: 78px; background: #e0e0e0; }
+
+#Y_header .logo h1 { background: url(../img/logo.png) no-repeat; width: 290px; height: 50px; margin: 14px 50px 0 0; }
+
+#Y_header .logo .form { width: 528px; height: 28px; margin-top: 15px; }
+
+#Y_header .logo .form input { width: 417px; height: 26px; padding: 0 10px; background: none; border: 1px solid #008842; color: #999999; }
+
+#Y_header .logo .form button { background: #008842; height: 28px; font-size: 12px; width: 81px; color: #fff; vertical-align: middle; }
+
+#Y_header .logo .form p { color: #727272; margin-top: 8px; }
+
+#Y_header .logo .form p i { color: #008842; margin: 0 15px; }
+
+#Y_header .logo .carbtn { width: 170px; height: 42px; border: 1px solid #008842; background: #fff; margin-top: 18px; }
+
+#Y_header .logo .carbtn a { margin-top: 10px; width: 80px; height: 28px; display: block; padding: 0 45px; }
+
+#Y_header .logo .carbtn a .two { font-size: 24px; padding-left: 8px; color: #008842; }
+
+#Y_header .logo .carbtn a span { background: url(../img/header-img.png) no-repeat -105px 0; width: 35px; height: 18px; display: inline-block; position: relative; }
+
+#Y_header .logo .carbtn a span b { position: absolute; left: 15px; color: #008842; }
+
+#Y_nav { margin-top: 78px; }
+
+#Y_nav .nav-all .nav-top { width: 180px; height: 38px; background: #008842; color: #fff; font: bold 15px/16px "Microsoft YaHei"; position: relative; line-height: 38px; text-align: center; }
+
+#Y_nav .nav-all .nav-top i { background: url(../img/header-img.png) no-repeat -25px 0; width: 8px; height: 8px; right: 25px; top: 15px; position: absolute; }
+
+#Y_nav .nav-all ul { width: 180px; height: 510px; background: #fff; opacity: 0.8; }
+
+#Y_nav .nav-all ul li { position: relative; }
+
+#Y_nav .nav-all ul li a { overflow: hidden; display: block; width: 165px; height: 24px; padding: 9px 0 9px 55px; font: normal 14px/24px "Microsoft YaHei"; position: relative; color: #444; }
+
+#Y_nav .nav-all ul li a i { background: url(../img/nav-icon.png) no-repeat -2px 0; width: 22px; height: 23px; left: 20px; top: 9px; position: absolute; }
+
+#Y_nav .nav-all ul li a .nav11 { background: url(../img/nav-icon.png) no-repeat -26px 0; }
+
+#Y_nav .nav-all ul li a .nav2 { background: url(../img/nav-icon.png) no-repeat -50px 0; }
+
+#Y_nav .nav-all ul li a .nav3 { background: url(../img/nav-icon.png) no-repeat -74px 0; }
+
+#Y_nav .nav-all ul li a .nav4 { background: url(../img/nav-icon.png) no-repeat -98px 0; }
+
+#Y_nav .nav-all ul li a .nav5 { background: url(../img/nav-icon.png) no-repeat -122px 0; }
+
+#Y_nav .nav-all ul li a .nav6 { background: url(../img/nav-icon.png) no-repeat -150px 0; }
+
+#Y_nav .nav-all ul li a .nav7 { background: url(../img/nav-icon.png) no-repeat -170px 0; }
+
+#Y_nav .nav-all ul li a .nav8 { background: url(../img/nav-icon.png) no-repeat -192px 0; }
+
+#Y_nav .nav-all ul li a .nav9 { background: url(../img/nav-icon.png) no-repeat -217px 0; }
+
+#Y_nav .nav-all ul li a .nav10 { background: url(../img/nav-icon.png) no-repeat -239px 0; }
+
+#Y_nav .nav-all ul li .all { z-index: 999; display: none; position: absolute; top: -38px; left: 180px; width: 215px; height: 515px; padding: 17px 20px; border: 1px solid #bbb; background: rgba(255, 255, 255, 0.9); }
+
+#Y_nav .nav-all ul li .all h3 .first { color: #008842; text-decoration: underline; font: normal 18px "Microsoft YaHei"; padding: 0; width: 90px; }
+
+#Y_nav .nav-all ul li .all a { padding: 0; font-size: 12px; padding: 10px; padding-left: 0; display: inline-block; width: 55px; }
+
+#Y_nav .nav-all ul li .two { top: -80px; }
+
+#Y_nav .nav-all ul li .three { top: -122px; }
+
+#Y_nav .nav-all ul li .four { top: -164px; }
+
+#Y_nav .nav-all ul li .five { top: -206px; }
+
+#Y_nav .nav-all ul li .six { top: -248px; }
+
+#Y_nav .nav-all ul li .seven { top: -290px; }
+
+#Y_nav .nav-all ul li .eight { top: -332px; }
+
+#Y_nav .nav-all ul li .night { top: -375px; }
+
+#Y_nav .nav-all ul li .ten { top: -416px; }
+
+#Y_nav .nav-all ul li .eleven { top: -459px; }
+
+#Y_nav .nav-all ul li .twelve { top: -501px; }
