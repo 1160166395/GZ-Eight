@@ -4,7 +4,7 @@
 #Y_banner{
     position:$F-position;
     width:100%;
-    height: 548px;
+    height: 543px;
     z-index: -1;
     div{
         position:$C-position;
@@ -15,4 +15,61 @@
 }
 #Y_main{
     
+    .prefecture{
+        width: 1212px;
+        height: 290px;
+        li{
+            float:left;
+            a{
+                margin: 0 13px 0 0;
+                position:$F-position;
+                div{
+                    position:$C-position;
+                    width: 270px;
+                    height: 57px;
+                    background: #fff;
+                    opacity:0.9;
+                    margin:10px;
+                    top:212px;
+                    h2{
+                        display:block;
+                        margin-top:4px;
+                        margin-bottom: 2px;
+                        font: bold 22px "Microsoft YaHei";
+                        color:#575757;
+                        text-align: center;
+                    }
+                    p{
+                        color:$font-color;
+                        text-align: center;
+
+                    }
+                }
+            }
+            .pre1{
+                width: 290px;
+                height: 290px;
+                display:block;
+                background: url(../img/t1.jpg);
+            }
+            .pre2{
+                width: 290px;
+                height: 290px;
+                display:block;
+                background: url(../img/t2.jpg);
+            }
+            .pre3{
+                width: 290px;
+                height: 290px;
+                display:block;
+                background: url(../img/t3.jpg);
+            }
+            .pre4{
+                width: 290px;
+                height: 290px;
+                display:block;
+                background: url(../img/t4.jpg);
+            }
+        }
+    }
 }

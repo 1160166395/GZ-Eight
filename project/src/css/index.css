@@ -59,7 +59,7 @@
 
 #Y_nav .nav-all .nav-top i { background: url(../img/header-img.png) no-repeat -25px 0; width: 8px; height: 8px; right: 25px; top: 15px; position: absolute; }
 
-#Y_nav .nav-all ul { width: 180px; height: 510px; background: #fff; opacity: 0.8; }
+#Y_nav .nav-all ul { width: 180px; height: 505px; background: #fff; opacity: 0.8; }
 
 #Y_nav .nav-all ul li { position: relative; }
 
@@ -115,6 +115,26 @@
 
 #Y_nav .nav-all ul li .twelve { top: -501px; }
 
-#Y_banner { position: relative; width: 100%; height: 548px; z-index: -1; }
+#Y_banner { position: relative; width: 100%; height: 543px; z-index: -1; }
 
 #Y_banner div { position: absolute; width: 100%; height: 500px; background: url(../img/b1.jpg) no-repeat; }
+
+#Y_main .prefecture { width: 1212px; height: 290px; }
+
+#Y_main .prefecture li { float: left; }
+
+#Y_main .prefecture li a { margin: 0 13px 0 0; position: relative; }
+
+#Y_main .prefecture li a div { position: absolute; width: 270px; height: 57px; background: #fff; opacity: 0.9; margin: 10px; top: 212px; }
+
+#Y_main .prefecture li a div h2 { display: block; margin-top: 4px; margin-bottom: 2px; font: bold 22px "Microsoft YaHei"; color: #575757; text-align: center; }
+
+#Y_main .prefecture li a div p { color: #444; text-align: center; }
+
+#Y_main .prefecture li .pre1 { width: 290px; height: 290px; display: block; background: url(../img/t1.jpg); }
+
+#Y_main .prefecture li .pre2 { width: 290px; height: 290px; display: block; background: url(../img/t2.jpg); }
+
+#Y_main .prefecture li .pre3 { width: 290px; height: 290px; display: block; background: url(../img/t3.jpg); }
+
+#Y_main .prefecture li .pre4 { width: 290px; height: 290px; display: block; background: url(../img/t4.jpg); }
