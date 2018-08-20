@@ -185,7 +185,7 @@
 
 #Y_login .bottom .form div h3 { float: left; margin: 30px 20px; font-size: 20px; }
 
-#Y_login .bottom .form div .regist { font-size: 12px; width: 120px; float: right; margin: 30px 10px; }
+#Y_login .bottom .form div .regist { font-size: 12px; width: 120px; float: right; margin: 30px 20px; }
 
 #Y_login .bottom .form div .regist a { text-decoration: underline; color: #008842; }
 
@@ -209,7 +209,11 @@
 
 #Y_login .bottom .form i { font-size: 12px; width: 100px; height: 20px; margin-left: 145px; }
 
-#Y_login .bottom .form .dl { margin-top: 20px; height: 50px; background: #008842; }
+#Y_login .bottom .form .three { margin-left: 25px; }
+
+#Y_login .bottom .form .three span { display: block; width: 290px; height: 40px; background: url(../img/bg_login.png) no-repeat -59px -191px; }
+
+#Y_login .bottom .form .dl { margin: 15px 20px; height: 50px; background: #008842; }
 
 #Y_login .bottom .form .dl a { color: #fff; font-size: 30px; font-weight: bolder; width: 308px; height: 50px; line-height: 50px; margin: 0 119px; }
 

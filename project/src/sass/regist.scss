@@ -1,0 +1,150 @@
+@import 'common';
+
+#Y_regist{
+    background: #f7f8f8;
+    z-index:-1;
+    .top{
+        height: 70px;
+        background: #e0e0e0;
+        position: $F-position;
+        h1{
+            background: url(../img/logo.png) no-repeat;
+            width: 290px;
+            height: 50px;
+            margin:12px 0px 0 0;
+            float:left;
+        }
+        h2{
+            position: $C-position;
+            font: 28px/1 "Microsoft YaHei";
+            color: $main-color;
+            top: 0px;
+            left: 399px;
+
+        }
+    }
+    .bottom{
+        height: 698px;
+        .regist{
+            font-size:16px;
+            width: 150px;
+            float: right;
+            margin: 15px 20px;
+            a{
+                text-decoration: underline;
+                color: $main-color;
+            }
+            a:hover{
+                color: #f20;
+            }
+        }
+        .form{
+            height: 635px;
+            background: #fff;
+            border: 1px solid rgb(97, 233, 97);
+            padding: 40px 0 50px 0;
+            .rleft{
+                width: 574px;
+                height: 542px;
+                background: #ccc;
+                p{
+                    font:14px Arial,"Microsoft YaHei";
+                    width: 574px;
+                    height: 40px;
+                    margin-bottom:29px;
+                    span{
+                        float: left;
+                        width: 240px;
+                        display: inline-block;
+                        vertical-align: middle;
+                        text-indent: 1px;
+                    }
+                    input{
+                        vertical-align: middle;
+                        float:left;
+                        border: 1px solid #c1c1c1;
+                        background-color: #fff;
+                        height: 38px;
+                        vertical-align: middle;
+                        padding-left: 14px;
+                        width: 290px;
+                        font: 14px/38px "Microsoft YaHei";
+                    }
+                    .short{
+                        width: 160px;
+                        
+                    }
+                }
+            }
+            .rright{
+                width: 395px;
+                height: 355px;
+                background: url(../img/register.png) no-repeat 0 0;
+                margin-top: 100px;
+            }
+        }
+    }
+    #Y_footer{
+        height: 535px;
+        margin-top:50px;
+        border-top:1px solid rgb(236, 233, 233);
+        .didi{
+            height: 341px;
+            margin-top: 50px;
+            dl{
+                float: left;
+                display: inline;
+                margin-left: 38px;
+                width: 190px;
+                color: #ccc;
+                dt{
+                    text-indent: 40px;
+                    height: 23px;
+                    line-height: 23px;
+                    font-size: 14px;
+                    color: #555;
+                    background: url(../img/footer_icon.png) no-repeat 0 0;
+                }
+                .col2{
+                    background: url(../img/footer_icon.png) no-repeat 0 -23px;
+                }
+                .col3{
+                    background: url(../img/footer_icon.png) no-repeat 0 -45px;
+                }
+                .col4{
+                    background: url(../img/footer_icon.png) no-repeat 0 -69px;
+                }
+                .col5{
+                    background: url(../img/footer_icon.png) no-repeat 0 -92px;
+                }
+                
+                dd{
+                    border-left: 1px dashed #A8A8A8;
+                    padding-left: 20px;
+                    height: 110px;
+                    min-height: 110px;
+                    margin: 15px 0 0 13px;
+                    p{
+                        a{
+                          color: #555;  
+                        }
+                        
+                    }
+                }
+            }
+        }
+        .service{
+            clear: both;
+            text-align: center;
+            padding: 60px 0 20px;
+            color: #008842;
+            font-size: 14px;
+        }
+        .copyright{
+            clear: both;
+            color: #717171;
+            text-align: center;
+            line-height: 22px;
+        }
+    }
+}
