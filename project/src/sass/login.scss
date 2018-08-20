@@ -1,0 +1,199 @@
+@import 'common';
+
+#Y_login{
+    background: #f7f8f8;
+    z-index:-1;
+    .top{
+        height: 70px;
+        background: #e0e0e0;
+        position: $F-position;
+        h1{
+            background: url(../img/logo.png) no-repeat;
+            width: 290px;
+            height: 50px;
+            margin:12px 0px 0 0;
+            float:left;
+        }
+        h2{
+            position: $C-position;
+            font: 28px/1 "Microsoft YaHei";
+            color: $main-color;
+            top: 0px;
+            left: 399px;
+
+        }
+    }
+    .bottom{
+        height: 480px;
+        background: #fff;
+        img{
+            width: 666px;
+            height: 418px;
+            margin-top: 50px;
+            float: left;
+        }
+        .form{
+            width: 350px;
+            height: 430px;
+            border: 1px solid #ddd;
+            margin-top: 50px;
+            div{
+                h3{
+                    float:left;
+                    margin:30px 20px;
+                    font-size: 20px;
+                }
+                .regist{
+                    font-size:12px;
+                    width: 120px;
+                    float: right;
+                    margin: 30px 10px;
+                    a{
+                        text-decoration: underline;
+                        color: $main-color;
+                    }
+                    a:hover{
+                        color: #f20;
+                    }
+                    
+                }
+            }
+            
+            p{
+                width: 308px;
+                height: 40px;
+                position: $F-position;
+                margin: 0 20px 20px 20px;
+                span{
+                    // position: $C-position;
+                    // left:0;
+                    // top: 0;
+                    width: 40px;
+                    height: 38px;
+                    display: inline-block;
+                    float:left;
+                    border: 1px solid #c1c1c1;
+                    background: url(../img/login-icon.png) no-repeat 0px -122px;
+                    
+                }
+                .spc{
+                    background-position: 0 -181px;
+                }
+                i{
+                    margin-top:10px;
+                    margin-left: 10px;
+                    width: 40px;
+                    height: 20px;
+                }
+                input{
+                    float: left;
+                    width: 254px;
+                    height: 38px;
+                    padding-left: 10px;
+                    border: 1px solid #c1c1c1;
+                    border-left:none;
+                    color: #aaa;
+                    font-size: 16px;
+                } 
+                .code{
+                    width: 115px;
+                    border-right:none;
+                }
+                .out{
+                    width: 70px;
+                    background: none;
+                }
+            }
+            label{
+                font-size: 12px;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-weight: normal;
+                margin-left:25px;
+            }
+            i{
+                font-size: 12px;
+                width: 100px;
+                height: 20px;
+                margin-left:145px;
+            }
+            .dl{
+                margin-top: 20px;
+                height: 50px;
+                background: $main-color;
+                a{
+                    color: #fff;
+                    font-size: 30px;
+                    font-weight: bolder;
+                    width: 308px;
+                    height: 50px;
+                    line-height: 50px;
+                    margin: 0 119px;
+                    
+                }
+            }
+        }
+    }
+    #Y_footer{
+        height: 535px;
+        margin-top:50px;
+        border-top:1px solid rgb(236, 233, 233);
+        .didi{
+            height: 341px;
+            margin-top: 50px;
+            dl{
+                float: left;
+                display: inline;
+                margin-left: 38px;
+                width: 190px;
+                color: #ccc;
+                dt{
+                    text-indent: 40px;
+                    height: 23px;
+                    line-height: 23px;
+                    font-size: 14px;
+                    color: #555;
+                    background: url(../img/footer_icon.png) no-repeat 0 0;
+                }
+                .col2{
+                    background: url(../img/footer_icon.png) no-repeat 0 -23px;
+                }
+                .col3{
+                    background: url(../img/footer_icon.png) no-repeat 0 -45px;
+                }
+                .col4{
+                    background: url(../img/footer_icon.png) no-repeat 0 -69px;
+                }
+                .col5{
+                    background: url(../img/footer_icon.png) no-repeat 0 -92px;
+                }
+                
+                dd{
+                    border-left: 1px dashed #A8A8A8;
+                    padding-left: 20px;
+                    height: 110px;
+                    min-height: 110px;
+                    margin: 15px 0 0 13px;
+                    p{
+                        a{
+                          color: #555;  
+                        }
+                        
+                    }
+                }
+            }
+        }
+        .service{
+            clear: both;
+            text-align: center;
+            padding: 60px 0 20px;
+            color: #008842;
+            font-size: 14px;
+        }
+        .copyright{
+            clear: both;
+            color: #717171;
+            text-align: center;
+            line-height: 22px;
+        }
+    }
+}
