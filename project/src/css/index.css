@@ -138,3 +138,17 @@
 #Y_main .prefecture li .pre3 { width: 290px; height: 290px; display: block; background: url(../img/t3.jpg); }
 
 #Y_main .prefecture li .pre4 { width: 290px; height: 290px; display: block; background: url(../img/t4.jpg); }
+
+#Y_main .floor1 { height: 500px; background: #ccc; margin-top: 30px; }
+
+#Y_main .floor1 .f-top .f-left { width: 127px; height: 32px; background: #ddd; }
+
+#Y_main .floor1 .f-top .f-left a { color: #fc5f3c; font: bold 18px "Microsoft YaHei"; vertical-align: bottom; }
+
+#Y_main .floor1 .f-top .f-left a i { font: bold 14px "Microsoft YaHei"; color: #fff; background: url(../img/floor-icon.png) no-repeat 0 0; width: 31px; height: 18px; padding: 10px 7px 4px 7px; margin-right: 4px; }
+
+#Y_main .floor1 .f-top .f-right { height: 32px; line-height: 32px; }
+
+#Y_main .floor1 .f-top .f-right span { color: #444; height: 12px; }
+
+#Y_main .floor1 .f-top .f-right span a i { height: 12px; font-size: 12px; }

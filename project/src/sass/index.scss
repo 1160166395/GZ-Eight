@@ -72,4 +72,53 @@
             }
         }
     }
+    .floor1{
+        height: 500px;
+        background: #ccc;
+        margin-top: 30px;
+        .f-top{
+            .f-left{
+                width: 127px;
+                height: 32px;
+                background: #ddd;
+                a{
+                    color: #fc5f3c;
+                    font: bold 18px "Microsoft YaHei";
+                    vertical-align: bottom;
+                    i{
+                        font: bold 14px "Microsoft YaHei";
+                        color: #fff;
+                        background: url(../img/floor-icon.png) no-repeat 0 0;
+                        width: 31px;
+                        height: 18px;
+                        padding: 10px 7px 4px 7px;
+                        margin-right: 4px;
+                    }
+                }
+            }
+            .f-right{
+                
+                height: 32px;
+                line-height:32px;
+                span{
+                    color: $font-color;
+                    height: 12px;
+                    
+                    a{
+                        i{
+                            height: 12px;
+                            // display: inline-block;
+                            font-size: 12px;
+                            // vertical-align: center;
+                        }
+                        
+                        // border-right: 1px solid $font-color;
+                    }
+                }
+            }
+        }
+    }
+
+
+
 }
