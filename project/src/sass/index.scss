@@ -5,12 +5,13 @@
     position:$F-position;
     width:100%;
     height: 543px;
-    z-index: -1;
+    z-index: 88;
     div{
         position:$C-position;
         width:100%;
         height: 500px;
         background: url(../img/b1.jpg) no-repeat;
+        z-index: 1;
     }
 }
 #Y_main{
@@ -74,13 +75,13 @@
     }
     .floor1{
         height: 500px;
-        background: #ccc;
         margin-top: 30px;
         .f-top{
+            height: 32px;
+            margin-bottom:6px;
             .f-left{
                 width: 127px;
                 height: 32px;
-                background: #ddd;
                 a{
                     color: #fc5f3c;
                     font: bold 18px "Microsoft YaHei";
@@ -97,28 +98,623 @@
                 }
             }
             .f-right{
-                
                 height: 32px;
-                line-height:32px;
-                span{
-                    color: $font-color;
-                    height: 12px;
-                    
-                    a{
-                        i{
-                            height: 12px;
-                            // display: inline-block;
-                            font-size: 12px;
-                            // vertical-align: center;
-                        }
-                        
-                        // border-right: 1px solid $font-color;
+                // line-height:32px;   
+                a{
+                    font-size: 12px;
+                    line-height: 32px;
+                    span{
+                        height: 12px;
+                        display: inline-block;
+                        border-right: 1px solid $font-color;
+                        color: $font-color;
+                        line-height:12px;
+                        padding: 0 7px;
+                    }
+                    .last{
+                        border-right: none;
+                        padding: 0 0 0 7px;
                     }
                 }
             }
         }
+        .f-bottom{
+            .f1-left{
+                width: 275px;
+                height: 462px;
+                background: url(../img/f1.jpg);
+            }
+            .f1-right{
+                width: 924px;
+                height: 462px;
+                border-top: 1px solid #d5d5d5;
+                border-left: 1px solid #d5d5d5;
+                li{
+                    float:left;
+                    width: 230px;
+                    height: 230px;
+                    border-right: 1px solid #d5d5d5;
+                    border-bottom: 1px solid #d5d5d5;
+                    background: url(../img/f11.jpg);
+                }
+                .big{
+                    width: 461px;
+                }
+                .f1-two{
+                    background: url(../img/f12.jpg);
+                }
+                .f1-three{
+                    background: url(../img/f13.jpg);
+                }
+                .f1-four{
+                    background: url(../img/f14.jpg);
+                }
+                .f1-five{
+                    background: url(../img/f15.jpg);
+                }.f1-six{
+                    background: url(../img/f16.jpg);
+                }
+
+            }
+        }
+
+    }
+    .floor2{
+        height: 500px;
+        margin-top: 30px;
+        .f-top{
+            height: 32px;
+            margin-bottom:6px;
+            .f-left{
+                width: 127px;
+                height: 32px;
+                a{
+                    color: $main-color;
+                    font: bold 18px "Microsoft YaHei";
+                    vertical-align: bottom;
+                    i{
+                        font: bold 14px "Microsoft YaHei";
+                        color: #fff;
+                        background: url(../img/floor-icon.png) no-repeat -46px 0;
+                        width: 31px;
+                        height: 18px;
+                        padding: 10px 7px 4px 7px;
+                        margin-right: 4px;
+                    }
+                }
+            }
+            .f-right{
+                height: 32px;
+                // line-height:32px;   
+                a{
+                    font-size: 12px;
+                    line-height: 32px;
+                    span{
+                        height: 12px;
+                        display: inline-block;
+                        border-right: 1px solid $font-color;
+                        color: $font-color;
+                        line-height:12px;
+                        padding: 0 7px;
+                    }
+                    .last{
+                        border-right: none;
+                        padding: 0 0 0 7px;
+                    }
+                }
+            }
+        }
+        .f-bottom{
+            .f1-left{
+                width: 275px;
+                height: 462px;
+                background: url(../img/f2.jpg);
+            }
+            .f1-right{
+                width: 924px;
+                height: 462px;
+                border-top: 1px solid #d5d5d5;
+                border-left: 1px solid #d5d5d5;
+                li{
+                    float:left;
+                    width: 230px;
+                    height: 230px;
+                    border-right: 1px solid #d5d5d5;
+                    border-bottom: 1px solid #d5d5d5;
+                    background: url(../img/f11.jpg);
+                }
+                .big{
+                    width: 461px;
+                }
+                .f1-two{
+                    background: url(../img/f22.jpg);
+                }
+                .f1-three{
+                    background: url(../img/f23.jpg);
+                }
+                .f1-four{
+                    background: url(../img/f24.jpg);
+                }
+                .f1-five{
+                    background: url(../img/f25.jpg);
+                }.f1-six{
+                    background: url(../img/f26.jpg);
+                }
+
+            }
+        }
+
+    }
+    .floor3{
+        height: 500px;
+        margin-top: 30px;
+        .f-top{
+            height: 32px;
+            margin-bottom:6px;
+            .f-left{
+                width: 127px;
+                height: 32px;
+                a{
+                    color: #45c6ce;
+                    font: bold 18px "Microsoft YaHei";
+                    vertical-align: bottom;
+                    i{
+                        font: bold 14px "Microsoft YaHei";
+                        color: #fff;
+                        background: url(../img/floor-icon.png) no-repeat -184px 0;
+                        width: 31px;
+                        height: 18px;
+                        padding: 10px 7px 4px 7px;
+                        margin-right: 4px;
+                    }
+                }
+            }
+            .f-right{
+                height: 32px;
+                // line-height:32px;   
+                a{
+                    font-size: 12px;
+                    line-height: 32px;
+                    span{
+                        height: 12px;
+                        display: inline-block;
+                        border-right: 1px solid $font-color;
+                        color: $font-color;
+                        line-height:12px;
+                        padding: 0 7px;
+                    }
+                    .last{
+                        border-right: none;
+                        padding: 0 0 0 7px;
+                    }
+                }
+            }
+        }
+        .f-bottom{
+            .f1-left{
+                width: 275px;
+                height: 462px;
+                background: url(../img/f3.jpg);
+            }
+            .f1-right{
+                width: 924px;
+                height: 462px;
+                border-top: 1px solid #d5d5d5;
+                border-left: 1px solid #d5d5d5;
+                li{
+                    float:left;
+                    width: 230px;
+                    height: 230px;
+                    border-right: 1px solid #d5d5d5;
+                    border-bottom: 1px solid #d5d5d5;
+                    background: url(../img/f31.jpg);
+                }
+                .big{
+                    width: 461px;
+                }
+                .f1-two{
+                    background: url(../img/f32.jpg);
+                }
+                .f1-three{
+                    background: url(../img/f33.jpg);
+                }
+                .f1-four{
+                    background: url(../img/f34.jpg);
+                }
+                .f1-five{
+                    background: url(../img/f35.jpg);
+                }.f1-six{
+                    background: url(../img/f36.jpg);
+                }
+
+            }
+        }
+
+    }
+    .floor4{
+        height: 500px;
+        margin-top: 30px;
+        .f-top{
+            height: 32px;
+            margin-bottom:6px;
+            .f-left{
+                width: 127px;
+                height: 32px;
+                a{
+                    color: #f0c000;
+                    font: bold 18px "Microsoft YaHei";
+                    vertical-align: bottom;
+                    i{
+                        font: bold 14px "Microsoft YaHei";
+                        color: #fff;
+                        background: url(../img/floor-icon.png) no-repeat -92px 0;
+                        width: 31px;
+                        height: 18px;
+                        padding: 10px 7px 4px 7px;
+                        margin-right: 4px;
+                    }
+                }
+            }
+            .f-right{
+                height: 32px;
+                // line-height:32px;   
+                a{
+                    font-size: 12px;
+                    line-height: 32px;
+                    span{
+                        height: 12px;
+                        display: inline-block;
+                        border-right: 1px solid $font-color;
+                        color: $font-color;
+                        line-height:12px;
+                        padding: 0 7px;
+                    }
+                    .last{
+                        border-right: none;
+                        padding: 0 0 0 7px;
+                    }
+                }
+            }
+        }
+        .f-bottom{
+            .f1-left{
+                width: 275px;
+                height: 462px;
+                background: url(../img/f4.jpg);
+            }
+            .f1-right{
+                position:$F-position;
+                width: 924px;
+                height: 462px;
+                border-top: 1px solid #d5d5d5;
+                border-left: 1px solid #d5d5d5;
+                .left{
+                    width: 234px;
+                    height: 383px;
+                    background: url(../img/f41.jpg);
+                    border-right: 1px solid #d5d5d5;
+                    border-bottom: 1px solid #d5d5d5;
+                }
+                .center{
+                    width: 442px;
+                    height: 384px;
+                    li{
+                        float:left;
+                        width: 220px;
+                        height: 191px;
+                        border-right: 1px solid #d5d5d5;
+                        border-bottom: 1px solid #d5d5d5;
+                        background: url(../img/f42.jpg);
+                    }
+                    .f2{
+                        background: url(../img/f43.jpg);
+                    }
+                    .f3{
+                        background: url(../img/f45.jpg);
+                    }
+                    .f4{
+                        background: url(../img/f46.jpg);
+                    }
+                }
+                .bottom{
+                    position: $C-position;
+                    width: 654px;
+                    height: 55px;
+                    bottom:0;
+                    left:0;
+                    padding:11px;
+                    border-right: 1px solid #d5d5d5;
+                    border-bottom: 1px solid #d5d5d5;
+                    background: #fff;
+                    a{
+                        margin: 0 10px;
+                    }
+                }
+                .right{
+                    width: 246px;
+                    height: 461px;
+                    background: url(../img/f44.jpg);
+                    border-right: 1px solid #d5d5d5;
+                    border-bottom: 1px solid #d5d5d5;
+                }
+            }
+            
+        }
+
+    }
+    .floor5{
+        height: 500px;
+        margin-top: 30px;
+        .f-top{
+            height: 32px;
+            margin-bottom:6px;
+            .f-left{
+                width: 127px;
+                height: 32px;
+                a{
+                    color: #e08683;
+                    font: bold 18px "Microsoft YaHei";
+                    vertical-align: bottom;
+                    i{
+                        font: bold 14px "Microsoft YaHei";
+                        color: #fff;
+                        background: url(../img/floor-icon.png) no-repeat -138px 0;
+                        width: 31px;
+                        height: 18px;
+                        padding: 10px 7px 4px 7px;
+                        margin-right: 4px;
+                    }
+                }
+            }
+            .f-right{
+                height: 32px;
+                // line-height:32px;   
+                a{
+                    font-size: 12px;
+                    line-height: 32px;
+                    span{
+                        height: 12px;
+                        display: inline-block;
+                        border-right: 1px solid $font-color;
+                        color: $font-color;
+                        line-height:12px;
+                        padding: 0 7px;
+                    }
+                    .last{
+                        border-right: none;
+                        padding: 0 0 0 7px;
+                    }
+                }
+            }
+        }
+        .f-bottom{
+            .f1-left{
+                width: 275px;
+                height: 462px;
+                background: url(../img/f5.jpg);
+            }
+            .f1-right{
+                position:$F-position;
+                width: 924px;
+                height: 462px;
+                border-top: 1px solid #d5d5d5;
+                border-left: 1px solid #d5d5d5;
+                .left{
+                    width: 234px;
+                    height: 383px;
+                    background: url(../img/f51.jpg);
+                    border-right: 1px solid #d5d5d5;
+                    border-bottom: 1px solid #d5d5d5;
+                }
+                .center{
+                    width: 442px;
+                    height: 384px;
+                    li{
+                        float:left;
+                        width: 220px;
+                        height: 191px;
+                        border-right: 1px solid #d5d5d5;
+                        border-bottom: 1px solid #d5d5d5;
+                        background: url(../img/f52.jpg);
+                    }
+                    .f2{
+                        background: url(../img/f53.jpg);
+                    }
+                    .f3{
+                        background: url(../img/f55.jpg);
+                    }
+                    .f4{
+                        background: url(../img/f56.jpg);
+                    }
+                }
+                .bottom{
+                    position: $C-position;
+                    width: 654px;
+                    height: 55px;
+                    bottom:0;
+                    left:0;
+                    padding:11px;
+                    border-right: 1px solid #d5d5d5;
+                    border-bottom: 1px solid #d5d5d5;
+                    background: #fff;
+                    a{
+                        margin: 0 10px;
+                    }
+                }
+                .right{
+                    width: 246px;
+                    height: 461px;
+                    background: url(../img/f54.jpg);
+                    border-right: 1px solid #d5d5d5;
+                    border-bottom: 1px solid #d5d5d5;
+                }
+            }
+            
+        }
+
+    }
+    .floor6{
+        height: 500px;
+        margin-top: 30px;
+        .f-top{
+            height: 32px;
+            margin-bottom:6px;
+            .f-left{
+                width: 127px;
+                height: 32px;
+                a{
+                    color: #3ca3dc;
+                    font: bold 18px "Microsoft YaHei";
+                    vertical-align: bottom;
+                    i{
+                        font: bold 14px "Microsoft YaHei";
+                        color: #fff;
+                        background: url(../img/floor-icon.png) no-repeat -531px 0;
+                        width: 31px;
+                        height: 18px;
+                        padding: 10px 7px 4px 7px;
+                        margin-right: 4px;
+                    }
+                }
+            }
+            .f-right{
+                height: 32px;
+                // line-height:32px;   
+                a{
+                    font-size: 12px;
+                    line-height: 32px;
+                    span{
+                        height: 12px;
+                        display: inline-block;
+                        border-right: 1px solid $font-color;
+                        color: $font-color;
+                        line-height:12px;
+                        padding: 0 7px;
+                    }
+                    .last{
+                        border-right: none;
+                        padding: 0 0 0 7px;
+                    }
+                }
+            }
+        }
+        .f-bottom{
+            .f1-left{
+                width: 275px;
+                height: 462px;
+                background: url(../img/f6.jpg);
+            }
+            .f1-right{
+                position:$F-position;
+                width: 924px;
+                height: 462px;
+                border-top: 1px solid #d5d5d5;
+                border-left: 1px solid #d5d5d5;
+                .left{
+                    width: 234px;
+                    height: 383px;
+                    background: url(../img/f61.jpg);
+                    border-right: 1px solid #d5d5d5;
+                    border-bottom: 1px solid #d5d5d5;
+                }
+                .center{
+                    width: 442px;
+                    height: 384px;
+                    li{
+                        float:left;
+                        width: 220px;
+                        height: 191px;
+                        border-right: 1px solid #d5d5d5;
+                        border-bottom: 1px solid #d5d5d5;
+                        background: url(../img/f62.jpg);
+                    }
+                    .f2{
+                        background: url(../img/f63.jpg);
+                    }
+                    .f3{
+                        background: url(../img/f65.jpg);
+                    }
+                    .f4{
+                        background: url(../img/f66.jpg);
+                    }
+                }
+                .bottom{
+                    position: $C-position;
+                    width: 654px;
+                    height: 55px;
+                    bottom:0;
+                    left:0;
+                    padding:11px;
+                    border-right: 1px solid #d5d5d5;
+                    border-bottom: 1px solid #d5d5d5;
+                    background: #fff;
+                    a{
+                        margin: 0 10px;
+                    }
+                }
+                .right{
+                    width: 246px;
+                    height: 461px;
+                    background: url(../img/f64.jpg);
+                    border-right: 1px solid #d5d5d5;
+                    border-bottom: 1px solid #d5d5d5;
+                }
+            }
+            
+        }
+
     }
 
 
-
+}
+#Y_side{
+    position: fixed;
+    width: 40px;
+    height: 220px;
+    top:200px;
+    left:50%;
+    margin-left: -650px;
+    .left{
+        width: 40px;
+        height: 220px;
+        li{
+            width: 40px;
+            height: 40px;
+            a{
+                position: $F-position;
+                b{
+                    position: $C-position;
+                    display:block;
+                    width: 40px;
+                    height: 40px;
+                }
+                i{
+                    position: $C-position;
+                    display:block;
+                    width: 10px;
+                    border-bottom:1px solid #ccc;
+                    margin:auto; 
+                    top: 40px;
+                    left: 15px;
+                }
+                span{
+                    display: none;
+                    // display:block;
+                    width: 30px;
+                    height: 30px;
+                    background: $main-color;
+                    padding:5px;
+                    text-align: center;
+                    font-weight:bold;
+                    color: #fff;
+                }
+                &:hover b{
+                    display: none;
+                }
+                &:hover span{
+                    display: block;
+                }
+            }
+        }
+    }
 }
