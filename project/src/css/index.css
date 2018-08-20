@@ -61,7 +61,9 @@
 
 #Y_nav .nav-all .nav-top i { background: url(../img/header-img.png) no-repeat -25px 0; width: 8px; height: 8px; right: 25px; top: 15px; position: absolute; }
 
-#Y_nav .nav-all ul { position: absolute; z-index: 999; width: 180px; height: 505px; background: #fff; opacity: 0.8; }
+#Y_nav .nav-all:hover ul { display: block; }
+
+#Y_nav .nav-all ul { display: none; position: absolute; z-index: 999; width: 180px; height: 505px; background: #fff; opacity: 0.8; }
 
 #Y_nav .nav-all ul li { position: relative; }
 
@@ -93,7 +95,7 @@
 
 #Y_nav .nav-all ul li .all h3 .first { color: #008842; text-decoration: underline; font: normal 18px "Microsoft YaHei"; padding: 0; width: 90px; }
 
-#Y_nav .nav-all ul li .all a { padding: 0; font-size: 12px; padding: 10px; padding-left: 0; display: inline-block; width: 55px; }
+#Y_nav .nav-all ul li .all a { padding: 0; font-size: 12px; padding: 10px 0px; padding-left: 0; display: inline-block; width: 60px; }
 
 #Y_nav .nav-all ul li .two { top: -80px; }
 
@@ -116,6 +118,8 @@
 #Y_nav .nav-all ul li .eleven { top: -459px; }
 
 #Y_nav .nav-all ul li .twelve { top: -501px; }
+
+#Y_nav .nav-all ul li:hover .all { display: block; }
 
 #Y_footer { height: 535px; margin-top: 50px; }
 

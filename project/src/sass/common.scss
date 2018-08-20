@@ -185,7 +185,11 @@ $font-color:#444;
                 position:$C-position;
             }
         }
+        &:hover ul{
+            display:block;
+        }
         ul{
+            display:none;
             position:$C-position;
             z-index: 999;
             width: 180px;
@@ -267,10 +271,10 @@ $font-color:#444;
                     a{
                         padding: 0;
                         font-size:12px;
-                        padding: 10px;
+                        padding: 10px 0px;
                         padding-left:0;
                         display:inline-block;
-                        width:55px;
+                        width:60px;
                     }
                 }
                 .one{
@@ -308,6 +312,9 @@ $font-color:#444;
                 }
                 .twelve{
                     top: -501px;
+                }
+                &:hover .all{
+                    display:block;
                 }
             }
         }
