@@ -197,7 +197,25 @@ body { min-width: 1200px; }
 
 #Y_banner { position: relative; width: 100%; height: 543px; z-index: 88; }
 
+#Y_banner button { position: absolute; z-index: inherit; width: 100px; height: 100px; background: #ccc; opacity: 0.5; color: #008842; font-size: 40px; }
+
+#Y_banner #left { left: 10px; top: 215px; }
+
+#Y_banner #right { right: 10px; top: 215px; }
+
+#Y_banner ul { position: absolute; z-index: 99999; left: 560px; top: 440px; }
+
+#Y_banner ul li { border-radius: 50px; text-align: center; line-height: 40px; color: #008842; font-size: 20px; float: left; width: 40px; height: 40px; background: #ccc; opacity: 0.8; margin: 10px; }
+
 #Y_banner div { position: absolute; width: 100%; height: 500px; background: url(../img/b1.jpg) no-repeat; z-index: 1; }
+
+#Y_banner .fruit { background: url(../img/b2.jpg) no-repeat; }
+
+#Y_banner .qixi { background: url(../img/b3.jpg) no-repeat; }
+
+#Y_banner .grapefruit { background: url(../img/b4.jpg) no-repeat; }
+
+#Y_banner .fall { background: url(../img/b5.jpg) no-repeat; }
 
 #Y_main .prefecture { width: 1212px; height: 290px; }
 
@@ -451,7 +469,7 @@ body { min-width: 1200px; }
 
 #Y_main .floor6 .f-bottom .f1-right .right { width: 246px; height: 461px; background: url(../img/f64.jpg); border-right: 1px solid #d5d5d5; border-bottom: 1px solid #d5d5d5; }
 
-#Y_side { position: fixed; width: 40px; height: 220px; top: 200px; left: 50%; margin-left: -650px; }
+#Y_side { display: none; position: fixed; width: 40px; height: 220px; top: 200px; left: 50%; margin-left: -650px; }
 
 #Y_side .left { width: 40px; height: 220px; }
 

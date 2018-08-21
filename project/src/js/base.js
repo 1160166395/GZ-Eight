@@ -13,14 +13,50 @@ jQuery($=>{
         }else{
             $xitop.removeClass("logo1");
         }
+
+        //显示边边
+        if(scroll >= 600){
+            $("#Y_side").css("display","block")
+        }else{
+            $("#Y_side").css("display","none")
+        }
     });
 
     //轮播图
 
     let $page = $("#Y_banner"); 
-    let $photo = $page.children();
-    console.log($photo[1]);
+    let $img = $page.children("div").children();console.log($img)
+    let timer;
+    // $("#Y_banner div").hide();
+    let index = 0;
+
+    function show(){
+        timer = setInterval(()=>{
+            index++;
+            autoPlay();
+        },3333);  
+    }
+    show();
+    function autoPlay(){console.log(5555)
+        if(index >= $img.length){
+            index = 0;
+
+        }else if(index<0){
+            index = $img.length-1;
+        }
+        $.each($img,i=>{
+            if(i === index){
+                $($img[i]).show();
+                // $(allyuan[i]).addClass("active");
+            }else{
+                $($img[i]).hide();
+                // $(allyuan[i]).addClass("active");
+            }
+        });
+    }
+   
+
+
     
-
-
+    
 })

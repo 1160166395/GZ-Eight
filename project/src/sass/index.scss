@@ -6,6 +6,45 @@
     width:100%;
     height: 543px;
     z-index: 88;
+    button{
+        position:$C-position;
+        z-index: inherit;
+        width: 100px;
+        height: 100px;
+        background: #ccc;
+        opacity: 0.5;
+        color: $main-color;
+        font-size:40px;
+    }
+    #left{
+        left:10px;
+        top: 215px;
+        
+    }
+    #right{
+        right:10px;
+        top: 215px;
+        
+    }
+    ul{
+        position:$C-position;
+        z-index: 99999;
+        left: 560px;
+        top: 440px;
+        li{
+            border-radius:50px;
+            text-align: center;
+            line-height: 40px;
+            color: $main-color;
+            font-size: 20px;
+            float:left;
+            width: 40px;
+            height: 40px;
+            background: #ccc;
+            opacity: 0.8;
+            margin: 10px;
+        }
+    }
     div{
         position:$C-position;
         width:100%;
@@ -13,6 +52,19 @@
         background: url(../img/b1.jpg) no-repeat;
         z-index: 1;
     }
+    .fruit{
+        background: url(../img/b2.jpg) no-repeat;
+    }
+    .qixi{
+        background: url(../img/b3.jpg) no-repeat;
+    }
+    .grapefruit{
+        background: url(../img/b4.jpg) no-repeat;
+    }
+    .fall{
+        background: url(../img/b5.jpg) no-repeat;
+    }
+
 }
 #Y_main{
     
@@ -753,6 +805,7 @@
 
 }
 #Y_side{
+    display: none;
     position: fixed;
     width: 40px;
     height: 220px;
