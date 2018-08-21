@@ -187,15 +187,29 @@
 
 #Y_regist .bottom .form { height: 635px; background: #fff; border: 1px solid #61e961; padding: 40px 0 50px 0; }
 
-#Y_regist .bottom .form .rleft { width: 574px; height: 542px; background: #ccc; }
+#Y_regist .bottom .form .rleft { width: 574px; height: 542px; }
 
 #Y_regist .bottom .form .rleft p { font: 14px Arial,"Microsoft YaHei"; width: 574px; height: 40px; margin-bottom: 29px; }
 
-#Y_regist .bottom .form .rleft p span { float: left; width: 240px; display: inline-block; vertical-align: middle; text-indent: 1px; }
+#Y_regist .bottom .form .rleft p span { float: left; width: 240px; display: inline-block; text-align: right; line-height: 40px; }
 
-#Y_regist .bottom .form .rleft p input { vertical-align: middle; float: left; border: 1px solid #c1c1c1; background-color: #fff; height: 38px; vertical-align: middle; padding-left: 14px; width: 290px; font: 14px/38px "Microsoft YaHei"; }
+#Y_regist .bottom .form .rleft p .out { width: 75px; height: 38px; border: 1px solid #ddd; margin-left: 10px; }
+
+#Y_regist .bottom .form .rleft p .change { width: 50px; height: 40px; line-height: 40px; text-align: center; }
+
+#Y_regist .bottom .form .rleft p input { color: #ccc; margin-left: 20px; vertical-align: middle; float: left; border: 1px solid #c1c1c1; background-color: #fff; height: 38px; vertical-align: middle; padding-left: 14px; width: 290px; font: 14px/38px "Microsoft YaHei"; }
 
 #Y_regist .bottom .form .rleft p .short { width: 160px; }
+
+#Y_regist .bottom .form .rleft p .getCode { width: 100px; height: 38px; background: #ddd; text-align: center; margin-left: 15px; }
+
+#Y_regist .bottom .form .rleft p .getCode a { color: #008842; }
+
+#Y_regist .bottom .form .rleft p .check { width: 15px; height: 15px; margin-left: 200px; vertical-align: middle; margin-top: 13px; }
+
+#Y_regist .bottom .form .rleft p .checkspan { font-size: 12px; width: 190px; height: 15px; vertical-align: middle; }
+
+#Y_regist .bottom .form .rleft .liji { width: 306px; height: 50px; background: #008842; text-align: center; line-height: 50px; font-size: 24px; color: #fff; margin: 0 240px; }
 
 #Y_regist .bottom .form .rright { width: 395px; height: 355px; background: url(../img/register.png) no-repeat 0 0; margin-top: 100px; }
 
