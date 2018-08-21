@@ -47,6 +47,9 @@
                     }
                 }
             }
+            a:hover{
+                box-shadow: 0px 0px 5px #222;
+            }
             .pre1{
                 width: 290px;
                 height: 290px;
@@ -72,6 +75,17 @@
                 background: url(../img/t4.jpg);
             }
         }
+    }
+    // .f-bottom{
+    //     ul{
+    //         position: $F-position;
+    //     }
+        
+    // }
+    .hov:hover{
+        // position: $C-position;
+        // left: 3px;
+        background-position: 10px 0;
     }
     .floor1{
         height: 500px;
@@ -130,29 +144,49 @@
                 border-top: 1px solid #d5d5d5;
                 border-left: 1px solid #d5d5d5;
                 li{
-                    float:left;
-                    width: 230px;
-                    height: 230px;
-                    border-right: 1px solid #d5d5d5;
-                    border-bottom: 1px solid #d5d5d5;
-                    background: url(../img/f11.jpg);
+                    a{
+                        float:left;
+                        width: 230px;
+                        height: 230px;
+                        border-right: 1px solid #d5d5d5;
+                        border-bottom: 1px solid #d5d5d5;
+                        background: url(../img/f11.jpg);
+                    }
+                    
                 }
                 .big{
-                    width: 461px;
+                    a{
+                        width: 461px;
+                    }
                 }
                 .f1-two{
-                    background: url(../img/f12.jpg);
+                    a{
+                       background: url(../img/f12.jpg);  
+                    }
+                    
                 }
                 .f1-three{
-                    background: url(../img/f13.jpg);
+                    a{
+                        background: url(../img/f13.jpg);
+                    }
+                    
                 }
                 .f1-four{
-                    background: url(../img/f14.jpg);
+                    a{
+                        background: url(../img/f14.jpg);
+                    }
+                    
                 }
                 .f1-five{
-                    background: url(../img/f15.jpg);
+                    a{
+                        background: url(../img/f15.jpg);
+                    }
+                    
                 }.f1-six{
-                    background: url(../img/f16.jpg);
+                    a{
+                        background: url(../img/f16.jpg);
+                    }
+                    
                 }
 
             }
@@ -216,29 +250,49 @@
                 border-top: 1px solid #d5d5d5;
                 border-left: 1px solid #d5d5d5;
                 li{
-                    float:left;
-                    width: 230px;
-                    height: 230px;
-                    border-right: 1px solid #d5d5d5;
-                    border-bottom: 1px solid #d5d5d5;
-                    background: url(../img/f11.jpg);
+                    a{
+                        float:left;
+                        width: 230px;
+                        height: 230px;
+                        border-right: 1px solid #d5d5d5;
+                        border-bottom: 1px solid #d5d5d5;
+                        background: url(../img/f11.jpg);
+                    }
+                    
                 }
                 .big{
-                    width: 461px;
+                    a{
+                        width: 461px;
+                    }
                 }
                 .f1-two{
-                    background: url(../img/f22.jpg);
+                    a{
+                       background: url(../img/f22.jpg); 
+                    }
+                    
                 }
                 .f1-three{
-                    background: url(../img/f23.jpg);
+                    a{
+                        background: url(../img/f23.jpg);
+                    }
+                    
                 }
                 .f1-four{
-                    background: url(../img/f24.jpg);
+                    a{
+                        background: url(../img/f24.jpg);
+                    }
+                    
                 }
                 .f1-five{
-                    background: url(../img/f25.jpg);
+                    a{
+                        background: url(../img/f25.jpg);
+                    }
+                    
                 }.f1-six{
-                    background: url(../img/f26.jpg);
+                    a{
+                        background: url(../img/f26.jpg);
+                    }
+                    
                 }
 
             }
@@ -302,29 +356,50 @@
                 border-top: 1px solid #d5d5d5;
                 border-left: 1px solid #d5d5d5;
                 li{
-                    float:left;
-                    width: 230px;
-                    height: 230px;
-                    border-right: 1px solid #d5d5d5;
-                    border-bottom: 1px solid #d5d5d5;
-                    background: url(../img/f31.jpg);
+                    a{
+                        float:left;
+                        width: 230px;
+                        height: 230px;
+                        border-right: 1px solid #d5d5d5;
+                        border-bottom: 1px solid #d5d5d5;
+                        background: url(../img/f31.jpg);
+                    }
+                    
                 }
                 .big{
-                    width: 461px;
+                    a{
+                        width: 461px;
+                    }
+                    
                 }
                 .f1-two{
-                    background: url(../img/f32.jpg);
+                    a{
+                        background: url(../img/f32.jpg);
+                    }
+                    
                 }
                 .f1-three{
-                    background: url(../img/f33.jpg);
+                    a{
+                        background: url(../img/f33.jpg);
+                    }
+                    
                 }
                 .f1-four{
-                    background: url(../img/f34.jpg);
+                    a{
+                        background: url(../img/f34.jpg);
+                    }
+                    
                 }
                 .f1-five{
-                    background: url(../img/f35.jpg);
+                    a{
+                        background: url(../img/f35.jpg);
+                    }
+                    
                 }.f1-six{
-                    background: url(../img/f36.jpg);
+                    a{
+                        background: url(../img/f36.jpg);
+                    }
+                    
                 }
 
             }
@@ -399,12 +474,15 @@
                     width: 442px;
                     height: 384px;
                     li{
-                        float:left;
-                        width: 220px;
-                        height: 191px;
-                        border-right: 1px solid #d5d5d5;
-                        border-bottom: 1px solid #d5d5d5;
-                        background: url(../img/f42.jpg);
+                        a{
+                            float:left;
+                            width: 220px;
+                            height: 191px;
+                            border-right: 1px solid #d5d5d5;
+                            border-bottom: 1px solid #d5d5d5;
+                            background: url(../img/f42.jpg);
+                        }
+                        
                     }
                     .f2{
                         background: url(../img/f43.jpg);
@@ -510,12 +588,15 @@
                     width: 442px;
                     height: 384px;
                     li{
-                        float:left;
-                        width: 220px;
-                        height: 191px;
-                        border-right: 1px solid #d5d5d5;
-                        border-bottom: 1px solid #d5d5d5;
-                        background: url(../img/f52.jpg);
+                        a{
+                            float:left;
+                            width: 220px;
+                            height: 191px;
+                            border-right: 1px solid #d5d5d5;
+                            border-bottom: 1px solid #d5d5d5;
+                            background: url(../img/f52.jpg); 
+                        }
+                        
                     }
                     .f2{
                         background: url(../img/f53.jpg);
@@ -621,12 +702,16 @@
                     width: 442px;
                     height: 384px;
                     li{
-                        float:left;
-                        width: 220px;
-                        height: 191px;
-                        border-right: 1px solid #d5d5d5;
-                        border-bottom: 1px solid #d5d5d5;
-                        background: url(../img/f62.jpg);
+                        a{
+                            display: block;
+                            float:left;
+                            width: 220px;
+                            height: 191px;
+                            border-right: 1px solid #d5d5d5;
+                            border-bottom: 1px solid #d5d5d5;
+                            background: url(../img/f62.jpg);
+                        }
+                        
                     }
                     .f2{
                         background: url(../img/f63.jpg);

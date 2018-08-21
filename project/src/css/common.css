@@ -1,7 +1,9 @@
 @charset "UTF-8";
+body { min-width: 1200px; }
+
 #Yiguo { background: #f7f8f8; z-index: -1; }
 
-#Y_header { height: 30px; background: #f7f9f8; width: 100%; font-family: Arial, Verdana, "宋体"; }
+#Y_header { height: 30px; background: #f7f9f8; font-family: Arial, Verdana, "宋体"; }
 
 #Y_header .site-left { line-height: 30px; }
 
@@ -33,7 +35,7 @@
 
 #Y_header .logo { height: 78px; background: #e0e0e0; }
 
-#Y_header .logo h1 { background: url(../img/logo.png) no-repeat; width: 290px; height: 50px; margin: 14px 50px 0 0; }
+#Y_header .logo h1 .logoa { background: url(../img/logo.png) no-repeat; width: 290px; display: block; height: 50px; margin: 14px 50px 0 0; }
 
 #Y_header .logo .form { width: 528px; height: 28px; margin-top: 15px; }
 
@@ -54,6 +56,30 @@
 #Y_header .logo .carbtn a span { background: url(../img/header-img.png) no-repeat -105px 0; width: 35px; height: 18px; display: inline-block; position: relative; }
 
 #Y_header .logo .carbtn a span b { position: absolute; left: 15px; color: #008842; }
+
+#Y_header .logo1 { height: 46px; width: 100%; position: fixed; left: 0; top: 0; z-index: 1999; opacity: 0.93; }
+
+#Y_header .logo1 h1 .logoa { background: url(../img/logo1.png) no-repeat; background-size: auto 100%; width: 145px; display: block; height: 36px; margin: 7px 80px 0 0; }
+
+#Y_header .logo1 .form { width: 528px; height: 28px; margin-top: 7px; }
+
+#Y_header .logo1 .form input { width: 417px; height: 26px; padding: 0 10px; background: none; border: 1px solid #008842; color: #999999; }
+
+#Y_header .logo1 .form button { background: #008842; height: 28px; font-size: 12px; width: 81px; color: #fff; vertical-align: middle; }
+
+#Y_header .logo1 .form p { color: #727272; margin-top: 8px; }
+
+#Y_header .logo1 .form p i { color: #008842; margin: 0 15px; }
+
+#Y_header .logo1 .carbtn { width: 142px; height: 34px; border: 1px solid #008842; background: #fff; margin-top: 5px; }
+
+#Y_header .logo1 .carbtn a { margin-top: 5px; width: 80px; height: 28px; display: block; padding: 0 34px; }
+
+#Y_header .logo1 .carbtn a .two { font-size: 24px; color: #008842; }
+
+#Y_header .logo1 .carbtn a span { background: url(../img/header-img.png) no-repeat -105px 0; width: 35px; height: 18px; display: inline-block; position: relative; }
+
+#Y_header .logo1 .carbtn a span b { position: absolute; left: 15px; color: #008842; }
 
 #Y_nav { margin-top: 78px; }
 
@@ -91,7 +117,7 @@
 
 #Y_nav .nav-all ul li a .nav10 { background: url(../img/nav-icon.png) no-repeat -239px 0; }
 
-#Y_nav .nav-all ul li .all { z-index: 999; display: none; position: absolute; top: -38px; left: 180px; width: 215px; height: 515px; padding: 17px 20px; border: 1px solid #bbb; background: rgba(255, 255, 255, 0.9); }
+#Y_nav .nav-all ul li .all { z-index: 999; display: none; position: absolute; top: -38px; left: 180px; width: 215px; height: 508px; padding: 17px 20px; border: 1px solid #bbb; background: rgba(255, 255, 255, 0.9); }
 
 #Y_nav .nav-all ul li .all h3 .first { color: #008842; text-decoration: underline; font: normal 18px "Microsoft YaHei"; padding: 0; width: 90px; }
 

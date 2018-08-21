@@ -8,16 +8,19 @@ $font-color:#444;
 
 
 
-
+body{
+    min-width: 1200px;
+}
 
 #Yiguo{
     background: #f7f8f8;
     z-index:-1;
+    
 }
 #Y_header{
     height:$height;
     background: #f7f9f8;
-    width: 100%;
+    // width: 100%;
     font-family: $font-family;
     .site-left{
         line-height:$height;
@@ -91,10 +94,15 @@ $font-color:#444;
         height: 78px;
         background: #e0e0e0;
         h1{
-            background: url(../img/logo.png) no-repeat;
-            width: 290px;
-            height: 50px;
-            margin:14px 50px 0 0;
+            .logoa{
+                
+                background: url(../img/logo.png) no-repeat;
+                width: 290px;
+                display:block;
+                height: 50px;
+                margin:14px 50px 0 0;
+            }
+            
         }
         .form{
             width: 528px;
@@ -160,6 +168,91 @@ $font-color:#444;
             
         }
     }
+    .logo1{
+        height: 46px;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 1999;
+        opacity: 0.93;
+        h1{
+            .logoa{
+                
+                background: url(../img/logo1.png) no-repeat;
+                background-size: auto 100%;
+                width: 145px;
+                display:block;
+                height: 36px;
+                margin: 7px 80px 0 0;
+            }
+            
+        }
+        .form{
+            width: 528px;
+            height: 28px;  
+            margin-top:7px;
+            input{
+                width: 417px;
+                height: 26px;
+                padding: 0 10px;
+                background:none;
+                border:1px solid $main-color;
+                color:rgb(153, 153, 153);
+            }
+            button{
+                background:$main-color;
+                height: 28px;
+                font-size:12px;
+                width: 81px;
+                color:#fff;
+                vertical-align: middle;
+            } 
+            p{
+                color:#727272;
+                margin-top:8px;
+                i{
+                    color:$main-color;
+                    margin:0 15px;
+                }
+            }     
+        }
+        .carbtn{
+            width: 142px;
+            height: 34px;
+            border:1px solid $main-color;
+            background: #fff;
+            margin-top: 5px;
+            a{
+                margin-top:5px;
+                width: 80px;
+                height: 28px;
+                display:block;
+                padding: 0 34px;
+                .two{
+                    font-size:24px;
+                    // padding-left:3px;
+                    color:$main-color;
+                }
+                span{
+                    background: url(../img/header-img.png) no-repeat -105px 0;
+                    width: 35px;
+                    height: 18px;
+                    display:inline-block;
+                    position:$F-position;
+                    b{
+                        position:$C-position;
+                        left:15px;
+                        color:$main-color;
+                    }
+                }
+                
+            }
+            
+            
+        }
+    }
+    
 }
 #Y_nav{
     margin-top:78px;
@@ -254,7 +347,7 @@ $font-color:#444;
                     top: -38px;
                     left: 180px;
                     width: 215px;
-                    height: 515px;
+                    height: 508px;
                     padding: 17px 20px;
                     border: 1px solid #bbb;
                     background: rgba(255, 255, 255, 0.9);
