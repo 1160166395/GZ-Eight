@@ -14,7 +14,7 @@
     $servername = "localhost";
     // $port = "3306";
     $username = "root";
-    $password = "ww315117";
+    $password = "";
     $dbname = "drug";
 
 
