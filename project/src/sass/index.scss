@@ -505,9 +505,13 @@
         }
         .f-bottom{
             .f1-left{
-                width: 275px;
-                height: 462px;
-                background: url(../img/f4.jpg);
+                a{
+                    display: block;
+                    width: 275px;
+                    height: 462px;
+                    background: url(../img/f4.jpg); 
+                }
+                
             }
             .f1-right{
                 position:$F-position;
@@ -537,13 +541,22 @@
                         
                     }
                     .f2{
-                        background: url(../img/f43.jpg);
+                        a{
+                            background: url(../img/f43.jpg);
+                        }
+                        
                     }
                     .f3{
-                        background: url(../img/f45.jpg);
+                        a{
+                            background: url(../img/f45.jpg);
+                        }
+                        
                     }
                     .f4{
-                        background: url(../img/f46.jpg);
+                        a{
+                            background: url(../img/f46.jpg);
+                        }
+                        
                     }
                 }
                 .bottom{
@@ -619,9 +632,12 @@
         }
         .f-bottom{
             .f1-left{
-                width: 275px;
-                height: 462px;
-                background: url(../img/f5.jpg);
+                a{
+                    display: block;
+                    width: 275px;
+                    height: 462px;
+                    background: url(../img/f5.jpg);
+                }
             }
             .f1-right{
                 position:$F-position;
@@ -651,13 +667,22 @@
                         
                     }
                     .f2{
-                        background: url(../img/f53.jpg);
+                        a{
+                            background: url(../img/f53.jpg);
+                        }
+                        
                     }
                     .f3{
-                        background: url(../img/f55.jpg);
+                        a{
+                            background: url(../img/f55.jpg);
+                        }
+                        
                     }
                     .f4{
-                        background: url(../img/f56.jpg);
+                        a{
+                            background: url(../img/f56.jpg);
+                        }
+                        
                     }
                 }
                 .bottom{
@@ -733,9 +758,13 @@
         }
         .f-bottom{
             .f1-left{
-                width: 275px;
-                height: 462px;
-                background: url(../img/f6.jpg);
+                a{
+                    display: block;
+                    width: 275px;
+                    height: 462px;
+                    background: url(../img/f6.jpg);
+                }
+                
             }
             .f1-right{
                 position:$F-position;
@@ -766,13 +795,22 @@
                         
                     }
                     .f2{
-                        background: url(../img/f63.jpg);
+                        a{
+                            background: url(../img/f63.jpg);
+                        }
+                        
                     }
                     .f3{
-                        background: url(../img/f65.jpg);
+                        a{
+                            background: url(../img/f65.jpg);
+                        }
+                        
                     }
                     .f4{
-                        background: url(../img/f66.jpg);
+                        a{
+                            background: url(../img/f66.jpg);
+                        }
+                        
                     }
                 }
                 .bottom{

@@ -185,13 +185,13 @@ body { min-width: 1200px; }
 
 #Y_footer .copyright { clear: both; color: #717171; text-align: center; line-height: 22px; }
 
-#Y_aside { width: 56px; height: 104px; bottom: 35px; right: 50%; margin-right: -670px; position: fixed; }
+#Y_aside { display: none; width: 56px; height: 104px; bottom: 35px; right: 50%; margin-right: -670px; position: fixed; }
 
 #Y_aside a { display: block; width: 52px; height: 52px; background: url(../img/sidebar.png) no-repeat 0 -43px; }
 
 #Y_aside .phone:hover { background-position: -56px -46px; }
 
-#Y_aside .totop { background: url(../img/sidebar.png) no-repeat 0 7px; }
+#Y_aside .totop { display: block; width: 52px; height: 52px; background: url(../img/sidebar.png) no-repeat 0 7px; }
 
 #Y_aside .totop:hover { background-position: -56px 7px; }
 

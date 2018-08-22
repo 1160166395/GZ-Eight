@@ -510,6 +510,7 @@ body{
     }
 }
 #Y_aside{
+    display: none;
     width: 56px;
     height: 104px;
     // background: #00c;
@@ -527,6 +528,9 @@ body{
         background-position: -56px -46px;
     }
     .totop{
+        display:block;
+        width: 52px;
+        height: 52px;
         background: url(../img/sidebar.png) no-repeat 0 7px;
     }
     .totop:hover{

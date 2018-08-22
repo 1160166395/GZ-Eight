@@ -185,13 +185,13 @@ body { min-width: 1200px; }
 
 #Y_footer .copyright { clear: both; color: #717171; text-align: center; line-height: 22px; }
 
-#Y_aside { width: 56px; height: 104px; bottom: 35px; right: 50%; margin-right: -670px; position: fixed; }
+#Y_aside { display: none; width: 56px; height: 104px; bottom: 35px; right: 50%; margin-right: -670px; position: fixed; }
 
 #Y_aside a { display: block; width: 52px; height: 52px; background: url(../img/sidebar.png) no-repeat 0 -43px; }
 
 #Y_aside .phone:hover { background-position: -56px -46px; }
 
-#Y_aside .totop { background: url(../img/sidebar.png) no-repeat 0 7px; }
+#Y_aside .totop { display: block; width: 52px; height: 52px; background: url(../img/sidebar.png) no-repeat 0 7px; }
 
 #Y_aside .totop:hover { background-position: -56px 7px; }
 
@@ -367,7 +367,7 @@ body { min-width: 1200px; }
 
 #Y_main .floor4 .f-top .f-right a .last { border-right: none; padding: 0 0 0 7px; }
 
-#Y_main .floor4 .f-bottom .f1-left { width: 275px; height: 462px; background: url(../img/f4.jpg); }
+#Y_main .floor4 .f-bottom .f1-left a { display: block; width: 275px; height: 462px; background: url(../img/f4.jpg); }
 
 #Y_main .floor4 .f-bottom .f1-right { position: relative; width: 924px; height: 462px; border-top: 1px solid #d5d5d5; border-left: 1px solid #d5d5d5; }
 
@@ -377,11 +377,11 @@ body { min-width: 1200px; }
 
 #Y_main .floor4 .f-bottom .f1-right .center li a { float: left; width: 220px; height: 191px; border-right: 1px solid #d5d5d5; border-bottom: 1px solid #d5d5d5; background: url(../img/f42.jpg); }
 
-#Y_main .floor4 .f-bottom .f1-right .center .f2 { background: url(../img/f43.jpg); }
+#Y_main .floor4 .f-bottom .f1-right .center .f2 a { background: url(../img/f43.jpg); }
 
-#Y_main .floor4 .f-bottom .f1-right .center .f3 { background: url(../img/f45.jpg); }
+#Y_main .floor4 .f-bottom .f1-right .center .f3 a { background: url(../img/f45.jpg); }
 
-#Y_main .floor4 .f-bottom .f1-right .center .f4 { background: url(../img/f46.jpg); }
+#Y_main .floor4 .f-bottom .f1-right .center .f4 a { background: url(../img/f46.jpg); }
 
 #Y_main .floor4 .f-bottom .f1-right .bottom { position: absolute; width: 654px; height: 55px; bottom: 0; left: 0; padding: 11px; border-right: 1px solid #d5d5d5; border-bottom: 1px solid #d5d5d5; background: #fff; }
 
@@ -407,7 +407,7 @@ body { min-width: 1200px; }
 
 #Y_main .floor5 .f-top .f-right a .last { border-right: none; padding: 0 0 0 7px; }
 
-#Y_main .floor5 .f-bottom .f1-left { width: 275px; height: 462px; background: url(../img/f5.jpg); }
+#Y_main .floor5 .f-bottom .f1-left a { display: block; width: 275px; height: 462px; background: url(../img/f5.jpg); }
 
 #Y_main .floor5 .f-bottom .f1-right { position: relative; width: 924px; height: 462px; border-top: 1px solid #d5d5d5; border-left: 1px solid #d5d5d5; }
 
@@ -417,11 +417,11 @@ body { min-width: 1200px; }
 
 #Y_main .floor5 .f-bottom .f1-right .center li a { float: left; width: 220px; height: 191px; border-right: 1px solid #d5d5d5; border-bottom: 1px solid #d5d5d5; background: url(../img/f52.jpg); }
 
-#Y_main .floor5 .f-bottom .f1-right .center .f2 { background: url(../img/f53.jpg); }
+#Y_main .floor5 .f-bottom .f1-right .center .f2 a { background: url(../img/f53.jpg); }
 
-#Y_main .floor5 .f-bottom .f1-right .center .f3 { background: url(../img/f55.jpg); }
+#Y_main .floor5 .f-bottom .f1-right .center .f3 a { background: url(../img/f55.jpg); }
 
-#Y_main .floor5 .f-bottom .f1-right .center .f4 { background: url(../img/f56.jpg); }
+#Y_main .floor5 .f-bottom .f1-right .center .f4 a { background: url(../img/f56.jpg); }
 
 #Y_main .floor5 .f-bottom .f1-right .bottom { position: absolute; width: 654px; height: 55px; bottom: 0; left: 0; padding: 11px; border-right: 1px solid #d5d5d5; border-bottom: 1px solid #d5d5d5; background: #fff; }
 
@@ -447,7 +447,7 @@ body { min-width: 1200px; }
 
 #Y_main .floor6 .f-top .f-right a .last { border-right: none; padding: 0 0 0 7px; }
 
-#Y_main .floor6 .f-bottom .f1-left { width: 275px; height: 462px; background: url(../img/f6.jpg); }
+#Y_main .floor6 .f-bottom .f1-left a { display: block; width: 275px; height: 462px; background: url(../img/f6.jpg); }
 
 #Y_main .floor6 .f-bottom .f1-right { position: relative; width: 924px; height: 462px; border-top: 1px solid #d5d5d5; border-left: 1px solid #d5d5d5; }
 
@@ -457,11 +457,11 @@ body { min-width: 1200px; }
 
 #Y_main .floor6 .f-bottom .f1-right .center li a { display: block; float: left; width: 220px; height: 191px; border-right: 1px solid #d5d5d5; border-bottom: 1px solid #d5d5d5; background: url(../img/f62.jpg); }
 
-#Y_main .floor6 .f-bottom .f1-right .center .f2 { background: url(../img/f63.jpg); }
+#Y_main .floor6 .f-bottom .f1-right .center .f2 a { background: url(../img/f63.jpg); }
 
-#Y_main .floor6 .f-bottom .f1-right .center .f3 { background: url(../img/f65.jpg); }
+#Y_main .floor6 .f-bottom .f1-right .center .f3 a { background: url(../img/f65.jpg); }
 
-#Y_main .floor6 .f-bottom .f1-right .center .f4 { background: url(../img/f66.jpg); }
+#Y_main .floor6 .f-bottom .f1-right .center .f4 a { background: url(../img/f66.jpg); }
 
 #Y_main .floor6 .f-bottom .f1-right .bottom { position: absolute; width: 654px; height: 55px; bottom: 0; left: 0; padding: 11px; border-right: 1px solid #d5d5d5; border-bottom: 1px solid #d5d5d5; background: #fff; }
 

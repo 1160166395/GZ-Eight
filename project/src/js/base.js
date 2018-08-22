@@ -5,7 +5,8 @@ jQuery($=>{
     let $xitop = $("#Y_header .logo");
     let $banxin = $xitop.children(".container");
     let $goodName = $banxin.children("#Y_header .logo .form").children("#Y_header .logo .form p");
-    console.log($goodName);    $(window).scroll(function(){
+    console.log($goodName);    
+    $(window).scroll(function(){
         let scroll = $(window).scrollTop();
         if(scroll >= 150){
             $xitop.addClass("logo1 logo");
@@ -16,11 +17,16 @@ jQuery($=>{
 
         //显示边边
         if(scroll >= 600){
-            $("#Y_side").css("display","block")
+            $("#Y_side").css("display","block");
+            $("#Y_aside").css("display","block")
         }else{
-            $("#Y_side").css("display","none")
+            $("#Y_side").css("display","none");
+            $("#Y_aside").css("display","none")
         }
     });
+    $("#Y_aside .totop").click(function(){
+        $("html,body").animate({scrollTop: 0},'slow');
+    })
 
     //轮播图
 

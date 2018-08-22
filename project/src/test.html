@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="{utf-8}">
+    <title></title>
+    <script src="libs/jquery-3.3.1.js"></script>
+    
+  </head>
+  <body>
+    <div>
+    <div id="div1">11111</div>
+    <div id="div2">22222</div>
+    </div>
+    <div>
+    <input type="button" id="btnPrevious" value="向前" />
+    <input type="button" id="btnAfter" value="向后"/>
+    </div>
+    </body>
+</html>
+<script>
+ $(document).ready(function(){
+$("#btnPrevious").bind("mousemove",function(){ toPrevious(); })
+$("#btnAfter").bind("mousemove",function(){ toAfter(); })
+});
+function toPrevious(){
+$("#div2").prev().css("background", "yellow");
+    $("#div2").prev().before($("#div2"));
+}
+function toAfter(){
+    $("#div2").next().after($("#div2"));
+}
+   
+</script>
