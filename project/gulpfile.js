@@ -1,6 +1,6 @@
-let gulp = require('gulp');
-let sass = require('gulp-sass');
-const pump = require('pump');
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+var pump = require('pump');
 //创建任务
 gulp.task('compileSass',function(){
     //执行任务时 会执行这里的代码
@@ -13,7 +13,6 @@ gulp.task('compileSass',function(){
 gulp.task('autoSass',function(){
     gulp.watch('./src/sass/*.scss',['compileSass'])
 });
-
 
 //创建任务 优化
 gulp.task('compressJs',()=>{
