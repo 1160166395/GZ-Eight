@@ -35,7 +35,7 @@ body { min-width: 1200px; }
 
 #Y_header .logo { height: 78px; background: #e0e0e0; }
 
-#Y_header .logo h1 .logoa { background: url(../img/logo.png) no-repeat; width: 290px; display: block; height: 50px; margin: 14px 50px 0 0; }
+#Y_header .logo h1 a { background: url(../img/logo.png) no-repeat; width: 290px; display: block; height: 50px; margin: 14px 50px 0 0; }
 
 #Y_header .logo .form { width: 528px; height: 28px; margin-top: 15px; }
 

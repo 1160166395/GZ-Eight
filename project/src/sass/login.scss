@@ -1,5 +1,6 @@
 @import 'common';
 
+
 #Y_login{
     background: #f7f8f8;
     z-index:-1;
@@ -8,11 +9,16 @@
         background: #e0e0e0;
         position: $F-position;
         h1{
-            background: url(../img/logo.png) no-repeat;
-            width: 290px;
-            height: 50px;
-            margin:12px 0px 0 0;
-            float:left;
+            margin-top:0;
+            a{
+                background: url(../img/logo.png) no-repeat;
+                width: 290px;
+                height: 50px;
+                margin:12px 0px 0 0;
+                float:left;
+                // display: inline-block;
+            }
+            
         }
         h2{
             position: $C-position;
@@ -36,7 +42,7 @@
             width: 350px;
             height: 430px;
             border: 1px solid #ddd;
-            margin-top: 50px;
+            margin-top: 38px;
             div{
                 h3{
                     float:left;
@@ -123,19 +129,17 @@
                 }
             }
             .dl{
-                margin: 15px 20px;
+                margin-top: 15px;
                 height: 50px;
                 background: $main-color;
-                a{
-                    color: #fff;
-                    font-size: 30px;
-                    font-weight: bolder;
-                    width: 308px;
-                    height: 50px;
-                    line-height: 50px;
-                    margin: 0 119px;
-
-                }
+                color: #fff;
+                font-size: 30px;
+                font-weight: bolder;
+                width: 308px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                // margin: 0 119px;
             }
         }
     }

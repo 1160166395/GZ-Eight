@@ -35,7 +35,7 @@ body { min-width: 1200px; }
 
 #Y_header .logo { height: 78px; background: #e0e0e0; }
 
-#Y_header .logo h1 .logoa { background: url(../img/logo.png) no-repeat; width: 290px; display: block; height: 50px; margin: 14px 50px 0 0; }
+#Y_header .logo h1 a { background: url(../img/logo.png) no-repeat; width: 290px; display: block; height: 50px; margin: 14px 50px 0 0; }
 
 #Y_header .logo .form { width: 528px; height: 28px; margin-top: 15px; }
 
@@ -201,7 +201,9 @@ body { min-width: 1200px; }
 
 #Y_regist .top { height: 70px; background: #e0e0e0; position: relative; }
 
-#Y_regist .top h1 { background: url(../img/logo.png) no-repeat; width: 290px; height: 50px; margin: 12px 0px 0 0; float: left; }
+#Y_regist .top h1 { margin-top: 0; }
+
+#Y_regist .top h1 a { background: url(../img/logo.png) no-repeat 0 0; width: 290px; height: 50px; margin: 12px 0px 0 0; float: left; }
 
 #Y_regist .top h2 { position: absolute; font: 28px/1 "Microsoft YaHei"; color: #008842; top: 0px; left: 399px; }
 
@@ -221,7 +223,7 @@ body { min-width: 1200px; }
 
 #Y_regist .bottom .form .rleft p span { float: left; width: 240px; display: inline-block; text-align: right; line-height: 40px; }
 
-#Y_regist .bottom .form .rleft p .out { width: 75px; height: 38px; border: 1px solid #ddd; margin-left: 10px; }
+#Y_regist .bottom .form .rleft p .out { width: 75px; height: 38px; border: 1px solid #ddd; margin-left: 10px; font-size: 18px; text-align: center; }
 
 #Y_regist .bottom .form .rleft p .change { width: 50px; height: 40px; line-height: 40px; text-align: center; }
 

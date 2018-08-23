@@ -11,11 +11,15 @@ body{
         background: #e0e0e0;
         position: $F-position;
         h1{
-            background: url(../img/logo.png) no-repeat;
-            width: 290px;
-            height: 50px;
-            margin:12px 0px 0 0;
-            float:left;
+            margin-top:0;
+            a{
+                background: url(../img/logo.png) no-repeat 0 0;
+                width: 290px;
+                height: 50px;
+                margin:12px 0px 0 0;
+                float:left;
+            }
+            
         }
         h2{
             position: $C-position;
@@ -68,12 +72,15 @@ body{
                         height: 38px;
                         border: 1px solid #ddd;
                         margin-left: 10px;
+                        font-size:18px;
+                        text-align: center;
                     }
                     .change{
                         width: 50px;
                         height: 40px;
                         line-height: 40px;
                         text-align: center;
+                        
                     }
                     input{
                         color: #ccc;

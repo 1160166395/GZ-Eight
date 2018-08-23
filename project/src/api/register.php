@@ -1,21 +1,18 @@
-<?
+<?php
+    // include 'connect.php';
     require('connect.php');
     
-    $userId = $_post['userid'];
-    $password = $_post['password'];
+    $userId = isset($_POST['userid'])?$_POST['userid']:null;
+    $password = isset($_POST['password'])?$_POST['password']:null;
 
-    $select = "SELECT * FROM `product` WHERE username='$userId'";
+    $select = "SELECT * FROM `user` WHERE username='$userId'";
     $res = $conn->query($select);
     $has = $res->fetch_all(MYSQLI_ASSOC);
 
     if($has){
-        if($has[0]['password'] === $password){
-            echo 1;
-        }else{
-            echo 0; 
-        }
+        echo 6666;
     }else{
-        $int = "INSERT INTO `users`(`username`, `password`) VALUES ($userId,$password)";
+        $int = "INSERT INTO `user`(`username`, `password`) VALUES ($userId,$password)";
         $conn->query($int);
         echo 1;
     }

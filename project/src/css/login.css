@@ -35,7 +35,7 @@ body { min-width: 1200px; }
 
 #Y_header .logo { height: 78px; background: #e0e0e0; }
 
-#Y_header .logo h1 .logoa { background: url(../img/logo.png) no-repeat; width: 290px; display: block; height: 50px; margin: 14px 50px 0 0; }
+#Y_header .logo h1 a { background: url(../img/logo.png) no-repeat; width: 290px; display: block; height: 50px; margin: 14px 50px 0 0; }
 
 #Y_header .logo .form { width: 528px; height: 28px; margin-top: 15px; }
 
@@ -199,7 +199,9 @@ body { min-width: 1200px; }
 
 #Y_login .top { height: 70px; background: #e0e0e0; position: relative; }
 
-#Y_login .top h1 { background: url(../img/logo.png) no-repeat; width: 290px; height: 50px; margin: 12px 0px 0 0; float: left; }
+#Y_login .top h1 { margin-top: 0; }
+
+#Y_login .top h1 a { background: url(../img/logo.png) no-repeat; width: 290px; height: 50px; margin: 12px 0px 0 0; float: left; }
 
 #Y_login .top h2 { position: absolute; font: 28px/1 "Microsoft YaHei"; color: #008842; top: 0px; left: 399px; }
 
@@ -207,7 +209,7 @@ body { min-width: 1200px; }
 
 #Y_login .bottom img { width: 666px; height: 418px; margin-top: 50px; float: left; }
 
-#Y_login .bottom .form { width: 350px; height: 430px; border: 1px solid #ddd; margin-top: 50px; }
+#Y_login .bottom .form { width: 350px; height: 430px; border: 1px solid #ddd; margin-top: 38px; }
 
 #Y_login .bottom .form div h3 { float: left; margin: 30px 20px; font-size: 20px; }
 
@@ -239,9 +241,7 @@ body { min-width: 1200px; }
 
 #Y_login .bottom .form .three span { display: block; width: 290px; height: 40px; background: url(../img/bg_login.png) no-repeat -59px -191px; }
 
-#Y_login .bottom .form .dl { margin: 15px 20px; height: 50px; background: #008842; }
-
-#Y_login .bottom .form .dl a { color: #fff; font-size: 30px; font-weight: bolder; width: 308px; height: 50px; line-height: 50px; margin: 0 119px; }
+#Y_login .bottom .form .dl { margin-top: 15px; height: 50px; background: #008842; color: #fff; font-size: 30px; font-weight: bolder; width: 308px; height: 50px; line-height: 50px; text-align: center; }
 
 #Y_login #Y_footer { height: 535px; margin-top: 50px; border-top: 1px solid #ece9e9; }
 
