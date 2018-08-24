@@ -7,7 +7,9 @@
     <title>易果网</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/goodslist.css">
+    <link rel="stylesheet" href="css/goodsList.css">
+    <script src="libs/jquery-3.3.1.js"></script>
+    <script src="js/goodsList.js"></script>
 </head>
 <body>
     <div id="Y_header">
@@ -29,7 +31,7 @@
         </div>
         <div class="logo clearfix">
             <div class="container clearfix">
-                <h1 class="fl"><a href="#" class="logoa"></a></h1>
+                <h1 class="fl"><a href="./index.html" class="logoa"></a></h1>
                 <div class="form fl">
                     <input type="text" value="输入商品名/编号/拼音"><button>搜索</button>
 
@@ -46,185 +48,193 @@
         </div>
     </div>
     <div id="Y_nav">
-        <div class="container">
+        <div class="container clearfix">
             <div class="nav-all fl">
                 <div class="nav-top">
                     全部商品分类<i></i>
                 </div>
-                <ul>
+                <div class="nav-item">
+                    <ul class="nav-ul">
+                        <li><a href="./goodsList.html?style=海鲜水产">新品专区</a></li>
+                        <li><a href="./goodsList.html?style=精选肉类">优质生活</a></li>
+                        <li><a href="./goodsList.html?style=进口水果">银行专区</a></li>
+                        <li><a href="./goodsList.html?style=饮料酒水">菜谱专栏</a></li>
+                    </ul>
+                </div>
+                <ul class="erji">
                     <li>
-                        <a href="#"><i></i>进口水果</a>
+                        <a href="./goodsList.html?style=进口水果"><i></i>进口水果</a>
                         <div class="one all">
                             <h3><a class="first">进口水果</a></h3>
-                            <a href="#">奇异果</a>
-                            <a href="#">车厘子</a>
-                            <a href="#">李</a>
-                            <a href="#">莓</a>
-                            <a href="#">牛油果</a>
-                            <a href="#">提子</a>
-                            <a href="#">苹果</a>
-                            <a href="#">梨</a>
-                            <a href="#">柑桔橙柚</a>
-                            <a href="#">山竹</a>
-                            <a href="#">香蕉</a>
-                            <a href="#">火龙果</a>
-                            <a href="#">椰子</a>
-                            <a href="#">芒果</a>
-                            <a href="#">凤梨</a>
-                            <a href="#">榴莲</a>
-                            <a href="#">热带水果</a>
-                            <a href="#">时令水果</a>
-                            <a href="#">原箱水果</a>
+                            <a href="./goodsList.html?style=进口水果">奇异果</a>
+                            <a href="./goodsList.html?style=进口水果">车厘子</a>
+                            <a href="./goodsList.html?style=进口水果">李</a>
+                            <a href="./goodsList.html?style=进口水果">莓</a>
+                            <a href="./goodsList.html?style=进口水果">牛油果</a>
+                            <a href="./goodsList.html?style=进口水果">提子</a>
+                            <a href="./goodsList.html?style=进口水果">苹果</a>
+                            <a href="./goodsList.html?style=进口水果">梨</a>
+                            <a href="./goodsList.html?style=进口水果">柑桔橙柚</a>
+                            <a href="./goodsList.html?style=进口水果">山竹</a>
+                            <a href="./goodsList.html?style=进口水果">香蕉</a>
+                            <a href="./goodsList.html?style=进口水果">火龙果</a>
+                            <a href="./goodsList.html?style=进口水果">椰子</a>
+                            <a href="./goodsList.html?style=进口水果">芒果</a>
+                            <a href="./goodsList.html?style=进口水果">凤梨</a>
+                            <a href="./goodsList.html?style=进口水果">榴莲</a>
+                            <a href="./goodsList.html?style=进口水果">热带水果</a>
+                            <a href="./goodsList.html?style=进口水果">时令水果</a>
+                            <a href="./goodsList.html?style=进口水果">原箱水果</a>
                         </div>
                     </li>
                     <li>
-                        <a href="#"><i class="nav1"></i>国产水果</a>
+                        <a href="./goodsList.html?style=进口水果"><i class="nav1"></i>国产水果</a>
                         <div class="two all">
                             <h3><a class="first">国产水果</a></h3>
-                            <a href="#">苹果</a>
-                            <a href="#">梨</a>
-                            <a href="#">樱桃</a>
-                            <a href="#">柑桔橙柚</a>
-                            <a href="#">瓜</a>
-                            <a href="#">葡萄</a>
-                            <a href="#">桃</a>
-                            <a href="#">李</a>
-                            <a href="#">枣</a>
-                            <a href="#">莓</a>
-                            <a href="#">芒果</a>
-                            <a href="#">凤梨</a>
-                            <a href="#">芭乐</a>
-                            <a href="#">百香果</a>
-                            <a href="#">热带水果</a>
-                            <a href="#">时令水果</a>
+                            <a href="./goodsList.html?style=进口水果">苹果</a>
+                            <a href="./goodsList.html?style=进口水果">梨</a>
+                            <a href="./goodsList.html?style=进口水果">樱桃</a>
+                            <a href="./goodsList.html?style=进口水果">柑桔橙柚</a>
+                            <a href="./goodsList.html?style=进口水果">瓜</a>
+                            <a href="./goodsList.html?style=进口水果">葡萄</a>
+                            <a href="./goodsList.html?style=进口水果">桃</a>
+                            <a href="./goodsList.html?style=进口水果">李</a>
+                            <a href="./goodsList.html?style=进口水果">枣</a>
+                            <a href="./goodsList.html?style=进口水果">莓</a>
+                            <a href="./goodsList.html?style=进口水果">芒果</a>
+                            <a href="./goodsList.html?style=进口水果">凤梨</a>
+                            <a href="./goodsList.html?style=进口水果">芭乐</a>
+                            <a href="./goodsList.html?style=进口水果">百香果</a>
+                            <a href="./goodsList.html?style=进口水果">热带水果</a>
+                            <a href="./goodsList.html?style=进口水果">时令水果</a>
                         </div>
                     </li>
                     <li>
-                        <a href="#"><i class="nav11"></i>精选肉类</a>
+                        <a href="./goodsList.html?style=精选肉类"><i class="nav11"></i>精选肉类</a>
                         <div class="three all">
                             <h3><a class="first">精选肉类</a></h3>
-                            <a href="#">牛排</a>
-                            <a href="#">冰鲜肉</a>
-                            <a href="#">进口牛肉</a>
-                            <a href="#">国产牛肉</a>
-                            <a href="#">猪肉</a>
-                            <a href="#">羊肉</a>
-                            <a href="#">香肠</a>
-                            <a href="#">肉制品</a>
-                            <a href="#">进口鹿肉</a>
+                            <a href="./goodsList.html?style=精选肉类">牛排</a>
+                            <a href="./goodsList.html?style=精选肉类">冰鲜肉</a>
+                            <a href="./goodsList.html?style=精选肉类">进口牛肉</a>
+                            <a href="./goodsList.html?style=精选肉类">国产牛肉</a>
+                            <a href="./goodsList.html?style=精选肉类">猪肉</a>
+                            <a href="./goodsList.html?style=精选肉类">羊肉</a>
+                            <a href="./goodsList.html?style=精选肉类">香肠</a>
+                            <a href="./goodsList.html?style=精选肉类">肉制品</a>
+                            <a href="./goodsList.html?style=精选肉类">进口鹿肉</a>
                         </div>
                     </li>
                     <li>
-                        <a href="#"><i class="nav2"></i>禽类蛋品</a>
+                        <a href="./goodsList.html?style=精选肉类"><i class="nav2"></i>禽类蛋品</a>
                         <div class="four all">
-                            <h3><a class="first">禽类蛋品</a></h3>
-                            <a href="#">牛排</a>
-                            <a href="#">冰鲜肉</a>
-                            <a href="#">进口牛肉</a>
-                            <a href="#">国产牛肉</a>
-                            <a href="#">猪肉</a>
-                            <a href="#">羊肉</a>
-                            <a href="#">香肠</a>
-                            <a href="#">肉制品</a>
-                            <a href="#">进口鹿肉</a>
+                            <h3><a class="first" href="./goodsList.html?style=精选肉类">禽类蛋品</a></h3>
+                            <a href="./goodsList.html?style=精选肉类">牛排</a>
+                            <a href="./goodsList.html?style=精选肉类">冰鲜肉</a>
+                            <a href="./goodsList.html?style=精选肉类">进口牛肉</a>
+                            <a href="./goodsList.html?style=精选肉类">国产牛肉</a>
+                            <a href="./goodsList.html?style=精选肉类">猪肉</a>
+                            <a href="./goodsList.html?style=精选肉类">羊肉</a>
+                            <a href="./goodsList.html?style=精选肉类">香肠</a>
+                            <a href="./goodsList.html?style=精选肉类">肉制品</a>
+                            <a href="./goodsList.html?style=精选肉类">进口鹿肉</a>
                         </div>
                     </li>
                     <li>
-                        <a href="#"><i class="nav3"></i>即烹美食</a>
-                        <div class="five all">
+                        <a href="./goodsList.html?style=精选肉类"><i class="nav3"></i>即烹美食</a>
+                        <div class="five all" href="./goodsList.html?style=精选肉类">
                             <h3><a class="first">即烹美食</a></h3>
-                            <a href="#">独家秘制</a>
-                            <a href="#">生猛海鲜</a>
-                            <a href="#">日韩料理</a>
-                            <a href="#">经典主菜</a>
-                            <a href="#">中华美食</a>
-                            <a href="#">精致西餐</a>
-                            <a href="#">开胃小菜</a>
-                            <a href="#">东南亚风味</a>
-                            <a href="#">田园时蔬</a>
+                            <a href="./goodsList.html?style=精选肉类">独家秘制</a>
+                            <a href="./goodsList.html?style=精选肉类">生猛海鲜</a>
+                            <a href="./goodsList.html?style=精选肉类">日韩料理</a>
+                            <a href="./goodsList.html?style=精选肉类">经典主菜</a>
+                            <a href="./goodsList.html?style=精选肉类">中华美食</a>
+                            <a href="./goodsList.html?style=精选肉类">精致西餐</a>
+                            <a href="./goodsList.html?style=精选肉类">开胃小菜</a>
+                            <a href="./goodsList.html?style=精选肉类">东南亚风味</a>
+                            <a href="./goodsList.html?style=精选肉类">田园时蔬</a>
                         </div>
                     </li>
                     <li>
-                        <a href="#"><i class="nav4"></i>海鲜水产</a>
+                        <a href="./goodsList.html?style=海鲜水产"><i class="nav4"></i>海鲜水产</a>
                         <div class="six all">
-                            <h3><a class="first">海鲜水产</a></h3>
-                            <a href="#">银鳕鱼</a>
-                            <a href="#">虾仁</a>
-                            <a href="#">鱼</a>
-                            <a href="#">三文鱼</a>
-                            <a href="#">虾</a>
-                            <a href="#">蟹</a>
-                            <a href="#">贝</a>
-                            <a href="#">活鲜</a>
-                            <a href="#">海产干货</a>
-                            <a href="#">特色海产</a>
+                            <h3><a class="first" href="./goodsList.html?style=海鲜水产">海鲜水产</a></h3>
+                            <a href="./goodsList.html?style=海鲜水产">银鳕鱼</a>
+                            <a href="./goodsList.html?style=海鲜水产">虾仁</a>
+                            <a href="./goodsList.html?style=海鲜水产">鱼</a>
+                            <a href="./goodsList.html?style=海鲜水产">三文鱼</a>
+                            <a href="./goodsList.html?style=海鲜水产">虾</a>
+                            <a href="./goodsList.html?style=海鲜水产">蟹</a>
+                            <a href="./goodsList.html?style=海鲜水产">贝</a>
+                            <a href="./goodsList.html?style=海鲜水产">活鲜</a>
+                            <a href="./goodsList.html?style=海鲜水产">海产干货</a>
+                            <a href="./goodsList.html?style=海鲜水产">特色海产</a>
                         </div>
                     </li>
                     <li>
-                        <a href="#"><i class="nav5"></i>乳品糕点</a>
+                        <a href="./goodsList.html?style=海鲜水产"><i class="nav5"></i>乳品糕点</a>
                         <div class="seven all">
-                            <h3><a class="first">乳品糕点</a></h3>
-                            <a href="#">奶酪</a>
-                            <a href="#">酸奶/乳酸</a>
-                            <a href="#">牛奶</a>
-                            <a href="#">面包</a>
-                            <a href="#">蛋糕</a>
-                            <a href="#">甜点</a>
-                            <a href="#">月饼</a>
+                            <h3><a class="first" href="./goodsList.html?style=海鲜水产">乳品糕点</a></h3>
+                            <a href="./goodsList.html?style=海鲜水产">奶酪</a>
+                            <a href="./goodsList.html?style=海鲜水产">酸奶/乳酸</a>
+                            <a href="./goodsList.html?style=海鲜水产">牛奶</a>
+                            <a href="./goodsList.html?style=海鲜水产">面包</a>
+                            <a href="./goodsList.html?style=海鲜水产">蛋糕</a>
+                            <a href="./goodsList.html?style=海鲜水产">甜点</a>
+                            <a href="./goodsList.html?style=海鲜水产">月饼</a>
                         </div>
                     </li>
                     <li>
-                        <a href="#"><i class="nav6"></i>新鲜蔬菜</a>
+                        <a href="./goodsList.html?style=海鲜水产"><i class="nav6"></i>新鲜蔬菜</a>
                         <div class="eight all">
-                            <h3><a class="first">新鲜蔬菜</a></h3>
-                            <a href="#">叶菜类</a>
-                            <a href="#">根茎类</a>
-                            <a href="#">茄果/瓜果</a>
-                            <a href="#">花菜/豆类</a>
-                            <a href="#">菌菇</a>
-                            <a href="#">沙拉菜</a>
-                            <a href="#">豆制品</a>
-                            <a href="#">葱蒜类</a>
-                            <a href="#">蔬菜组合</a>
+                            <h3><a class="first" href="./goodsList.html?style=海鲜水产">新鲜蔬菜</a></h3>
+                            <a href="./goodsList.html?style=海鲜水产">叶菜类</a>
+                            <a href="./goodsList.html?style=海鲜水产">根茎类</a>
+                            <a href="./goodsList.html?style=海鲜水产">茄果/瓜果</a>
+                            <a href="./goodsList.html?style=海鲜水产">花菜/豆类</a>
+                            <a href="./goodsList.html?style=海鲜水产">菌菇</a>
+                            <a href="./goodsList.html?style=海鲜水产">沙拉菜</a>
+                            <a href="./goodsList.html?style=海鲜水产">豆制品</a>
+                            <a href="./goodsList.html?style=海鲜水产">葱蒜类</a>
+                            <a href="./goodsList.html?style=海鲜水产">蔬菜组合</a>
                         </div>
                     </li>
                     <li>
-                        <a href="#"><i class="nav7"></i>方便速食</a>
+                        <a href="./goodsList.html?style=海鲜水产"><i class="nav7"></i>方便速食</a>
                         <div class="night all">
-                            <h3><a class="first">方便速食</a></h3>
-                            <a href="#">养生汤品</a>
-                            <a href="#">冷冻点心</a>
-                            <a href="#">中式主食</a>
-                            <a href="#">火锅料</a>
+                            <h3><a class="first" href="./goodsList.html?style=海鲜水产">方便速食</a></h3>
+                            <a href="./goodsList.html?style=海鲜水产">养生汤品</a>
+                            <a href="./goodsList.html?style=海鲜水产">冷冻点心</a>
+                            <a href="./goodsList.html?style=海鲜水产">中式主食</a>
+                            <a href="./goodsList.html?style=海鲜水产">火锅料</a>
                         </div>
                     </li>
                     <li>
-                        <a href="#"><i class="nav8"></i>粮油杂货</a>
+                        <a href="./goodsList.html?style=海鲜水产"><i class="nav8"></i>粮油杂货</a>
                         <div class="ten all">
-                            <h3><a class="first">粮油杂货</a></h3>
-                            <a href="#">米</a>
-                            <a href="#">杂粮</a>
-                            <a href="#">油</a>
-                            <a href="#">干货</a>
-                            <a href="#">果干/零食</a>
+                            <h3><a class="first" href="./goodsList.html?style=海鲜水产">粮油杂货</a></h3>
+                            <a href="./goodsList.html?style=海鲜水产">米</a>
+                            <a href="./goodsList.html?style=海鲜水产">杂粮</a>
+                            <a href="./goodsList.html?style=海鲜水产">油</a>
+                            <a href="./goodsList.html?style=海鲜水产">干货</a>
+                            <a href="./goodsList.html?style=海鲜水产">果干/零食</a>
                         </div>
                     </li>
                     <li>
-                        <a href="#"><i class="nav9"></i>饮料酒水</a>
-                        <div class="eleven all">
+                        <a href="./goodsList.html?style=饮料酒水"><i class="nav9"></i>饮料酒水</a>
+                        <div class="eleven all" href="./goodsList.html?style=饮料酒水">
                             <h3><a class="first">饮料酒水</a></h3>
-                            <a href="#">果汁/饮料</a>
-                            <a href="#">冲调饮品</a>
+                            <a href="./goodsList.html?style=饮料酒水">果汁/饮料</a>
+                            <a href="./goodsList.html?style=饮料酒水">冲调饮品</a>
                         </div>
                     </li>
                     <li>
-                        <a href="#"><i class="nav10"></i>礼品礼券</a>
-                        <div class="twelve all">
+                        <a href="./goodsList.html?style=饮料酒水"><i class="nav10"></i>礼品礼券</a>
+                        <div class="twelve all"  href="./goodsList.html?style=饮料酒水">
                             <h3><a class="first">礼品礼券</a></h3>
-                            <a href="#">礼品礼盒</a>
-                            <a href="#">礼卡礼券</a>
-                            <a href="#">原膳礼盒</a>
-                            <a href="#">智能硬件</a>
+                            <a href="./goodsList.html?style=饮料酒水">礼品礼盒</a>
+                            <a href="./goodsList.html?style=饮料酒水">礼卡礼券</a>
+                            <a href="./goodsList.html?style=饮料酒水">原膳礼盒</a>
+                            <a href="./goodsList.html?style=饮料酒水">智能硬件</a>
                         </div>
                     </li>
 
@@ -232,7 +242,51 @@
             </div>
         </div>
     </div>
-<div id="Y_footer">
+    <div id="Y_main">
+        <div class="container">
+            <div class="m-top">
+                <!-- <h1 class="first"><a href=".\goodsList.html"></a></h1>
+                <ul>
+                    <li><a href=".\goodsList.html"></a></li>
+                    <li><a href=".\goodsList.html"></a></li>
+                    <li><a href=".\goodsList.html"></a></li>
+                    <li><a href=".\goodsList.html"></a></li>
+                </ul> -->
+            </div>
+            <div class="select">
+                <div class="all">►所有分类</div>
+                <ul>
+
+                </ul>
+            </div>
+            <div class="paixu">
+                <div class="filter_sort">
+                    <a class="on">默认排序</a>
+                    <a class="">销量<i class="dowm"></i></a>
+                    <a class="price">价格<i class="sort_down"></i></a>
+                    <a class="">评论<i class="dowm"></i></a>
+                </div>
+            </div>
+            <div class="product">
+                <ul class="clearfix">
+                    <!-- <li>
+                        <a href=".\dataIlist.html">
+                            <img src="" alt="">
+                            <div class="bottom">
+                                <div class="name"><a href=".\dataIlist.html"></a></div>
+                                <div class="price"></div>
+                            </div>
+                            <div class="buy">
+                                <span></span>
+                                <div class="incar"></div>
+                            </div>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="Y_footer">
         <div class="footer_service">
             <div class="container">
                 <ul>
@@ -325,7 +379,7 @@
             </div>
         </div>
     </div>
-<div id="Y_aside">
+    <div id="Y_aside">
         <a href="#" class="phone"></a>
         <span href="#" class="totop"></span>
     </div>

@@ -1,0 +1,163 @@
+@import 'common';
+
+#Y_nav{
+    position: $F-position;
+    .nav-top{
+        // float:left;
+    }
+    .nav-all{
+        ul{
+            li{
+                .one{
+                    top:0;
+                }
+                .two{
+                    top: -42px;
+                }
+                .three{
+                    top: -84px;
+                }
+                .four{
+                    top: -126px;
+                }
+                .five{
+                    top: -168px;
+                }
+                .six{
+                    top: -210px;
+                }
+                .seven{
+                    top: -252px;
+                }
+                .eight{
+                    top: -294px;
+                }
+                .night{
+                    top: -336px;
+                }
+                .ten{
+                    top: -378px;
+                }
+                .eleven{
+                    top: -420px;
+                }
+                .twelve{
+                    top: -462px;
+                }
+            }
+        }
+        .nav-item{
+            position:$C-position;
+            left: 340px;
+            top:0;
+            width: 1020px;
+            height: 37px;
+            display:block;
+            float:left;
+            border-bottom:1px solid $main-color;
+            .nav-ul{
+                display:block;
+                width: 1020px;
+                height: 38px;
+                li{
+                    float: left;
+                    a{
+                        color:#000;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+#Y_main{
+    
+    .top{
+        margin-left: -10px;
+        span{
+            display: inline-block;
+            margin: 10px 10px;
+            i{
+                display: inline-block;
+                margin: 0 5px 0 30px;
+            }
+        }
+    }
+    .product{
+        .pro{
+            .pic{
+                .small{
+                    width: 500px;
+                    height: 97px;
+                    padding-top: 10px;
+                    ul{
+                        li{
+                            float: left;
+                            width: 85px;
+                            height: 85px;
+                            background: #0c0;
+                            margin-right: 10px;
+                            border: 1px solid #000;
+                        }
+                    }
+                }
+            }
+            .right{
+                width: 680px;
+                height: 600px;
+                margin-left: 20px;
+                .xiangq-top{
+                    .name{
+                        .zhu-name{
+                            font: normal 26px "Microsoft YaHei";
+                        }
+                        .shuoming{
+                            height: 40px;
+                            margin-top: 5px;
+                            color: #777;
+                            font: normal 16px/20px "Microsoft YaHei";
+                        }
+                    }
+                    .center{
+                        width: 680px;
+                        height: 70px;
+                        background: #fff;
+                        padding: 10px 20px;
+                        position: $F-position;
+                        .price{
+                            .tt{
+                                display: inline-block;
+                                padding: 0 10PX;
+                            }
+                            .num{
+                                color: #f00;
+                                em{
+                                    font-size:14px;
+                                    display: inline-block;
+                                    padding-right: 5px;
+                                }
+                                strong{
+                                    font: normal 22px "Arial,Verdana";
+                                }
+                            }
+                        }
+                        .pro-m3{
+                            border-top: 1px solid #e2e2e2;
+                            margin-top: 10px;
+                            padding-top: 10px;
+                            padding-left: 10px;
+                            .green{
+                                display: inline-block;
+                                border-radius: 4px;
+                                background: #11b57c;
+                                color: #fff;
+                                padding: 5px;
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

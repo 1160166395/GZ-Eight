@@ -10,6 +10,7 @@ $font-color:#444;
 
 body{
     min-width: 1200px;
+    background: #f7f8f8;
 }
 
 #Yiguo{
@@ -277,7 +278,7 @@ body{
                 position:$C-position;
             }
         }
-        &:hover ul{
+        &:hover .erji{
             display:block;
         }
         ul{

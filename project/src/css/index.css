@@ -1,5 +1,5 @@
 @charset "UTF-8";
-body { min-width: 1200px; }
+body { min-width: 1200px; background: #f7f8f8; }
 
 #Yiguo { background: #f7f8f8; z-index: -1; }
 
@@ -87,7 +87,7 @@ body { min-width: 1200px; }
 
 #Y_nav .nav-all .nav-top i { background: url(../img/header-img.png) no-repeat -25px 0; width: 8px; height: 8px; right: 25px; top: 15px; position: absolute; }
 
-#Y_nav .nav-all:hover ul { display: block; }
+#Y_nav .nav-all:hover .erji { display: block; }
 
 #Y_nav .nav-all ul { display: none; position: absolute; z-index: 999; width: 180px; height: 505px; background: #fff; opacity: 0.8; }
 
