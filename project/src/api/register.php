@@ -10,7 +10,7 @@
     $has = $res->fetch_all(MYSQLI_ASSOC);
 
     if($has){
-        echo 6666;
+        echo 0;
     }else{
         $int = "INSERT INTO `user`(`username`, `password`) VALUES ($userId,$password)";
         $conn->query($int);

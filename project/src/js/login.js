@@ -91,11 +91,13 @@ jQuery($=>{
             url: "http://localhost:1804/project/src/api/login.php",
             data:`userid=${usernum}&password=${password}`,
             success: function(data){
+                // console.log(data);
                 if(data == 0){
                     alert("用户名或密码错误");
                 }
                 if(data == 1){
-                    location.href = "http://localhost:1804/project/src/";
+                    location.href = "http://localhost:1804/project/src/index.html?userid="+usernum;
+                    document.cookie='userid='+JSON.stringify(usernum)+';path=/';
                 }
                 if(data == 2){
                     alert("用户名不存在");
@@ -103,4 +105,27 @@ jQuery($=>{
             }
         })
     }
+
+    if(cookies == []){
+        window.location.href =  "http://localhost:1804/project/src/login.html";
+      }else{
+        $(".addCart button").click(function(){ 
+  
+          
+          // console.log(qty);
+          $.ajax({
+            url:"http://localhost:2566/project/src/api/addcar.php",
+            type:'get',
+            data: {
+              goodsid:id,
+              username:username,
+              qty:qty
+            },
+            success:function(data){  
+              console.log  (data)
+              
+            }
+          })
+        }) 
+      }
 })

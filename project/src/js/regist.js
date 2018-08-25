@@ -173,12 +173,12 @@ jQuery($=>{
             url: "http://localhost:1804/project/src/api/register.php",
             data: `userid=${usernum}&password=${psw}`,
             success: function(data){
-                if(data === 0){
+                if(data == 0){
                     alert('用户名已存在'); 
                     console.log(5445)
                 }
                 if(data == 1){
-                    location.href = "http://localhost:1804/project/src";
+                    location.href = "http://localhost:1804/project/src/index.html?userid="+usernum;
                     console.log(999)
                 }
             }
