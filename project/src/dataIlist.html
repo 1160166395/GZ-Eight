@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/dataList.css">
+    <link rel="stylesheet" href="libs/hizoom/hizoom.css">
     <script src="libs/jquery-3.3.1.js"></script>
-    <script src="js/goodsList.js"></script>
+    <script src="js/dataList.js"></script>
+    <script src="libs/hizoom/hizoom.js"></script>
+    <script src="libs/jquery.ez-plus.js"></script>
 </head>
 <body>
     <div id="Y_header">
@@ -254,7 +257,7 @@
                 <div class="pro clearfix">
                     <div class="pic fl">
                         <div class="big">
-                            <img src="img/big.jpg" alt="">
+                            <img src="" alt="">
                         </div>
                         <div class="small">
                             <ul>
@@ -280,8 +283,28 @@
                                     <span class="green">满158元赠冬枣</span>
                                 </div>
                                 <div class="pro-tel">
-                                    <p><i></i>手机下单购买<strong>立即扫码</strong></p><div class="code">
-                                        <img id="qrcodeUrl" width="114" height="114" display:="" block="" src="data:img/png;base64,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">
+                                    <p><i></i>手机下单购买<strong>立即扫码</strong></p>
+                                    <div class="code">
+                                        <img id="qrcodeUrl" width="114" height="114" display:="" block="" src="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAA
+                                        ABaCAYAAAA4qEECAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAYTSURBVHhe7ZABaixZDANz/0v/ZWAKTPEUu
+                                        TvJwEIXiCBZ9pv017+Hj/B86A/xfOgP8XzoD/F86A/xfOgP8XzoD/F86A9RP/TX19ctwWk21TjtvJRIPfvE3L2iRm2cjm4Ep9lU47TzUiL17BNz94oatbE9B
+                                        OuH3z3LbHP8NgfnqZfY9mvjzx5+9yyzzfHbHJynXmLbrw0fwltgD62Ht7akvZSD8+QtsE/URjpsgT20Ht7akvZSDs6Tt8A+URvpsAX2Zu7M3jZHkHKTeltvg
+                                        X2iNtJhC+zN3Jm9bY4g5Sb1tt4C+0RtpMMW2Ju5M5VIc+epB8zd23oL7BO1kQ5bYG/mzlQizZ2nHjB3b+stsE/UxvYQpL7z1DP07vaTEm1utv3a+K2Hnaeeo
+                                        Xe3n5Roc7Pt1waHrgr+r/6qGrVxOroR/F/9VTV644e0H7SdJzxP3jmk/Lf58xfmP3n6h7bzhOfJO4eU/zb1hfkj5w9qubmbW5DyRttLeWLbrw0O+WDLzd3cg
+                                        pQ32l7KE9v++iIHfdg+MXev9BOe462E58k7h5Qn1s356HzAPjF3r/QTnuOthOfJO4eUJ/bNN/Px00Mt99weZvckc+q8ZO7OnVuN3hDtgZZ7bg+ze5I5dV4yd
+                                        +fOrUZtbA8l5o+ZSqRey83snuaJtpfyRt24exjYtxKp13Izu6d5ou2lvFE35qNXBM2bbT/lwDz10rzlMDszT9SGD24FzZttP+XAPPXSvOUwOzNP9MYbH04yd
+                                        +ctb7Q9vHPjnrVl3Tw9cpK5O295o+3hnRv3rC3rpg/Px77Lk8yp8xKcZidtcf/u/nZvfdkH5yPf5Unm1HkJTrOTtrh/d3+7t7/8xg+gxKn7EiRvmZRD2/PcP
+                                        nF77/13DYetxKn7EiRvmZRD2/PcPnF77/03kg43QfJbmVPnpUbrzVunnudWozZ8aB7/TpD8VubUeanRevPWqee51eiNgB9YP/jupX7Lm0ya/9Rf5fbm3R9CL
+                                        /Vb3mTS/Kf+KnVz+wA9C+wh9Zwbz5N3Dm0OP51DbawPvXsW2EPqOTeeJ+8c2hx+OofaSIfI2zzheetD27OHbQ+2/ZSb2mgPtHnC89aHtmcP2x5s+yk3vRHgg
+                                        SQ4zaa2uD9vfJcj+Os80RsBP2TBaTa1xf1547scwV/nid54c/WwSfv20PI0hzSfu6c5tF7KE+vmfPTKA5D27aHlaQ5pPndPc2i9lCdqcz42D9vD7M751lvG+
+                                        bZnPMc7h6u5qQ0O+aA9zO6cb71lnG97xnO8c7iam954w8GkROqlPOHe3J05pNy0fc+do0ZvvDkdn0qkXsoT7s3dmUPKTdv33Dlq1IYPpcPkntvD7M55yk3qN
+                                        Q8tT3Oz7r3/RnwoHSb33B5md85TblKveWh5mpt17/03Mh+dAvtE63mOT4LkUw6zM3PwHIF9ozbnI1Ngn2g9z/FJkHzKYXZmDp4jsG/U5nxkKtHmMG9NwdYnw
+                                        Wk2Bc0DudWojdPRlxJtDvPWFGx9EpxmU9A8kFuN2kiHnDdv2hy2Pbh7d+tT3qiNdMh586bNYduDu3e3PuWN2miHPE/9lJttr+E76S75XW2pzXbQ89RPudn2G
+                                        r6T7pLf1Zaf/0cF/6D5I08Ce5jd0/wq7c58a/bsGz//pYX0A5PAHmb3NL9KuzPfmj37Rm3OR67IOE89YG7Bafad4K99ojY4dFXGeeoBcwtOs+8Ef+0TtbE9B
+                                        KlP7vlVb7bz1Es5zN3ZS3miNraHIPXJPb/qzXaeeimHuTt7KU/Uhg/N41Nw128F2xzBaXZFYN+ozfSABXf9VrDNEZxmVwT2jdpMD1hw1Rvm7jm3TMrBc7xz4
+                                        x5q1IYPzeNTcNUb5u45t0zKwXO8c+MeatSGD83jU2APszvnySeZNE+5Sb2UmzaH2vAhvAX2MLtznnySSfOUm9RLuWlzqI3tIXAf7zyR+vaJbe8q3E1q1Mb2E
+                                        LiPd55IffvEtncV7iY1auN0dCOwT8zd2beHbZ68BfZwNTe1waGrAvvE3J19e9jmyVtgD1dz0xsPv8LzoT/E86E/xPOhP8TzoT/E86E/xPOhP8TzoT/Cv3//A
+                                        SCSzlvsyLauAAAAAElFTkSuQmCC">
                                     </div>
                                 </div>
                                 <div class="pro-review">
@@ -289,6 +312,57 @@
                                     <p><b>5.0</b> 分</p>
                                     <p><a href="#comment"><span>(评论数524)</span></a></p>
                                 </div>
+                            </div>
+                            <div class="bottom fl">
+                                <div class="choose clearfix">
+                                    <div class="dt">规格：</div>
+                                    <div class="dd">
+                                        <ul>
+                                            <li class="selected">
+                                                <a href="./dataIlist.html">
+                                                    <span class="jiaqian">￥36.80</span>
+                                                    <span class="rongliang">1袋/份</span>
+                                                    <i></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="pro-service">
+                                    满百包邮，
+                                    <b>24:00</b> 
+                                    前完成订单 预计明日
+                                    <b>(8月26日)</b>
+                                    送达
+                                </div>
+                                <div class="pro-service">
+                                    <i class="mr5">
+                                        <img src="http://static01.yiguo.com/www/images/icon1.png">
+                                    </i>
+                                    不支持7天无理由退货
+                                </div>
+                                <div class="pro-amount clearfix">
+                                    <div class="dt fl">数量：</div>
+                                    <div class="dd fl">
+                                        <div class="spinner value" maxlength="2">
+                                            <button class="decrease" disabled="disabled">-</button>
+                                            <input type="text" class="spinner" id="p_number" maxlength="2" value="1">
+                                            <button class="increase">+</button>
+                                        </div>
+                                    </div>
+                                    <div class="addcart fl">
+                                        <a class="btn-gn" href="#">
+                                            <i></i>
+                                            加入购物车
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="botRight fr">
+                                <div class="place">原产地：<span>菲律宾</span></div>
+                                <div class="bnum">商品编号：1103007</div>
+                                <div class="pinpai">品牌：	常瀛</div>
+                                <div class="fahuo">发货地：<span>湺蜀南</span></div>
                             </div>
                         </div>
                     </div>

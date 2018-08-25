@@ -186,9 +186,13 @@
         }
         .f-bottom{
             .f1-left{
-                width: 275px;
-                height: 462px;
-                background: url(../img/f1.jpg);
+                a{
+                    display:block;
+                    width: 275px;
+                    height: 462px;
+                    background: url(../img/f1.jpg);
+                }
+                
             }
             .f1-right{
                 width: 924px;
@@ -204,6 +208,11 @@
                         border-right: 1px solid #d5d5d5;
                         border-bottom: 1px solid #d5d5d5;
                         background: url(../img/f11.jpg);
+                        transition:0.5s;
+                        &:hover{
+                            transform:translateX(5PX);
+                        
+                        }
                     }
                     
                 }
@@ -293,10 +302,14 @@
         }
         .f-bottom{
             .f1-left{
-                width: 275px;
-                height: 462px;
-                background: url(../img/f2.jpg);
+                a{
+                    width: 275px;
+                    height: 462px;
+                    background: url(../img/f2.jpg);
+                    display:block;
+                } 
             }
+                
             .f1-right{
                 width: 924px;
                 height: 462px;
@@ -399,9 +412,13 @@
         }
         .f-bottom{
             .f1-left{
-                width: 275px;
-                height: 462px;
-                background: url(../img/f3.jpg);
+                a{
+                    display: block;
+                    width: 275px;
+                    height: 462px;
+                    background: url(../img/f3.jpg);
+                }
+                
             }
             .f1-right{
                 width: 924px;

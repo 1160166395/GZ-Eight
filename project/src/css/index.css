@@ -259,13 +259,15 @@ body { min-width: 1200px; background: #f7f8f8; }
 
 #Y_main .floor1 .f-top .f-right a .last { border-right: none; padding: 0 0 0 7px; }
 
-#Y_main .floor1 .f-bottom .f1-left { width: 275px; height: 462px; background: url(../img/f1.jpg); }
+#Y_main .floor1 .f-bottom .f1-left a { display: block; width: 275px; height: 462px; background: url(../img/f1.jpg); }
 
 #Y_main .floor1 .f-bottom .f1-right { width: 924px; height: 462px; border-top: 1px solid #d5d5d5; border-left: 1px solid #d5d5d5; }
 
 #Y_main .floor1 .f-bottom .f1-right li { float: left; }
 
-#Y_main .floor1 .f-bottom .f1-right li a { display: block; width: 230px; height: 230px; border-right: 1px solid #d5d5d5; border-bottom: 1px solid #d5d5d5; background: url(../img/f11.jpg); }
+#Y_main .floor1 .f-bottom .f1-right li a { display: block; width: 230px; height: 230px; border-right: 1px solid #d5d5d5; border-bottom: 1px solid #d5d5d5; background: url(../img/f11.jpg); transition: 0.5s; }
+
+#Y_main .floor1 .f-bottom .f1-right li a:hover { transform: translateX(5PX); }
 
 #Y_main .floor1 .f-bottom .f1-right .big a { width: 461px; }
 
@@ -297,7 +299,7 @@ body { min-width: 1200px; background: #f7f8f8; }
 
 #Y_main .floor2 .f-top .f-right a .last { border-right: none; padding: 0 0 0 7px; }
 
-#Y_main .floor2 .f-bottom .f1-left { width: 275px; height: 462px; background: url(../img/f2.jpg); }
+#Y_main .floor2 .f-bottom .f1-left a { width: 275px; height: 462px; background: url(../img/f2.jpg); display: block; }
 
 #Y_main .floor2 .f-bottom .f1-right { width: 924px; height: 462px; border-top: 1px solid #d5d5d5; border-left: 1px solid #d5d5d5; }
 
@@ -333,7 +335,7 @@ body { min-width: 1200px; background: #f7f8f8; }
 
 #Y_main .floor3 .f-top .f-right a .last { border-right: none; padding: 0 0 0 7px; }
 
-#Y_main .floor3 .f-bottom .f1-left { width: 275px; height: 462px; background: url(../img/f3.jpg); }
+#Y_main .floor3 .f-bottom .f1-left a { display: block; width: 275px; height: 462px; background: url(../img/f3.jpg); }
 
 #Y_main .floor3 .f-bottom .f1-right { width: 924px; height: 462px; border-top: 1px solid #d5d5d5; border-left: 1px solid #d5d5d5; }
 
