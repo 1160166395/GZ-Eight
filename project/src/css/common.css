@@ -49,13 +49,11 @@ body { min-width: 1200px; background: #f7f8f8; }
 
 #Y_header .logo .carbtn { width: 170px; height: 42px; border: 1px solid #008842; background: #fff; margin-top: 18px; }
 
-#Y_header .logo .carbtn a { margin-top: 10px; width: 80px; height: 28px; display: block; padding: 0 45px; }
-
-#Y_header .logo .carbtn a .two { font-size: 24px; padding-left: 8px; color: #008842; }
+#Y_header .logo .carbtn a { margin-top: 15px; width: 80px; height: 28px; display: block; padding: 0 68px; }
 
 #Y_header .logo .carbtn a span { background: url(../img/header-img.png) no-repeat -105px 0; width: 35px; height: 18px; display: inline-block; position: relative; }
 
-#Y_header .logo .carbtn a span b { position: absolute; left: 15px; color: #008842; }
+#Y_header .logo .carbtn a span b { position: absolute; left: 14px; color: #008842; font-size: 18px; top: -7px; }
 
 #Y_header .logo1 { height: 46px; width: 100%; position: fixed; left: 0; top: 0; z-index: 1999; opacity: 0.93; }
 

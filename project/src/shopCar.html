@@ -40,18 +40,22 @@
     <div class="cart_main">
         <div class="container clearfix">
             <table class="cart_table">
-                <tr class="cart_th">
-                    <th><input type="checkbox" class="allchoose"></th>
-                    <th>全选</th>
-                    <th>商品信息</th>
-                    <th>金额</th>
-                    <th>数量</th>
-                    <th>规格</th>
-                    <th>小计</th>
-                    <th>操作</th>
-                </tr>	
+                <thead>
+                    <tr class="cart_th">
+                        <th><input type="checkbox" class="allchoose" checked/></th>
+                        <th>全选</th>
+                        <th>商品信息</th>
+                        <th>金额</th>
+                        <th>数量</th>
+                        <th>规格</th>
+                        <th>小计</th>
+                        <th>操作</th>
+                    </tr>
+
+                </thead>
+                <tbody></tbody>
             </table>
-            <div class="btn"></div>
+            <div class="btn">总计:<span id="totalnum"></span></div>
         </div>
     </div>
     <div id="Y_footer">

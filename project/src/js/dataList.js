@@ -1,6 +1,6 @@
 jQuery($=>{
     var id = location.search.slice(1).split("=")[1];
-    console.log(id)
+    // console.log(id)
 
     $.ajax({
         type: "get",
@@ -8,7 +8,7 @@ jQuery($=>{
         data: {id:id},
         dataType:'json',
         success: function(data){
-            console.log(data[0])
+            // console.log(data[0])
             let wdata = data;
             
             //console.log(wdata);
@@ -21,53 +21,58 @@ jQuery($=>{
             $(".rongliang").text(`${wdata[0].qty}`);
             $(".place span").text(`${wdata[0].place}`);
             var goodslist = getCookie('goodslist') || [];
-    if(typeof goodslist === 'string'){
-        console.log(goodslist)
-        goodslist = JSON.parse(goodslist);
-         
-    }
-    
-    $("#btnAddcart").on("click",function(e){
-        console.log(6666)
-        var val = $(".spin").val();
-        var idx;
-        var has = goodslist.some(function(g,i){
-            idx = i;
-            return g.id === id;
-        });
-        if(has){
-            goodslist[idx].qty=(goodslist[idx].qty)*1+val*1;
-        }else{
-                // 获取商品信息
-                var goods = {
-                    id:data[0].id,
-                    name:data[0].name,
-                    img:data[0].img,
-                    price:data[0].price,
-                    guige:data[0].qty,
-                    // 商品数量
-                    qty:val 
-                };
-                goodslist.push(goods);
-        }
-                //if(e.target == $('.join').get(0) || e.target == $('.buyit').get(0)){
-        var now=new Date();
-        now.setDate(now.getDate()+7);
-        document.cookie='goodslist='+JSON.stringify(goodslist)+';expires='+now.toUTCString()+';path=/';
+            if(typeof goodslist === 'string'){
+                console.log(goodslist)
+                goodslist = JSON.parse(goodslist);
+                $(".carbtn a span b").text(goodslist.length);
+            }
+            
 
-                //}
-                //if(e.target == $('.join').get(0)){
-                    //$('.animate').fadeIn(500).animate({top:"-4px"},500).fadeOut(500).animate({top:'-330px'},500);
-                //}
-                //if(e.target == $('.buyit').get(0)){
-                    //location.href='shoppingCart.html?id'+par;
-                //}       
-    })
+            $("#btnAddcart").on("click",function(e){
+                console.log(6666)
+                var num = $(".carbtn a span b").text();
+                console.log(num)
+                var val = $(".spin").val();
+                var idx;
+                var has = goodslist.some(function(g,i){
+                    idx = i;
+                    return g.id === id;
+                });
+                if(has){
+                    goodslist[idx].qty=(goodslist[idx].qty)*1+val*1;
+                }else{
+                        // 获取商品信息
+                        var goods = {
+                            id:data[0].id,
+                            name:data[0].name,
+                            img:data[0].img,
+                            price:data[0].price,
+                            guige:data[0].qty,
+                            // 商品数量
+                            qty:val 
+                        };
+                        goodslist.push(goods);
+                }
+                        //if(e.target == $('.join').get(0) || e.target == $('.buyit').get(0)){
+                var now=new Date();
+                now.setDate(now.getDate()+7);
+                document.cookie='goodslist='+JSON.stringify(goodslist)+';expires='+now.toUTCString()+';path=/';
+
+                        //}
+                        //if(e.target == $('.join').get(0)){
+                            //$('.animate').fadeIn(500).animate({top:"-4px"},500).fadeOut(500).animate({top:'-330px'},500);
+                        //}
+                        //if(e.target == $('.buyit').get(0)){
+                            //location.href='shoppingCart.html?id'+par;
+                        //}       
+            })
             
         }
     })
 
-    
+    // var coo = getCookie('goodslist');
+
+    // console.log(coo);
 
     function getCookie(key){
         // 先获取所有cookie

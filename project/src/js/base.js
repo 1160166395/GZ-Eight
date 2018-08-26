@@ -61,7 +61,22 @@ jQuery($=>{
         });
     }
    
-
+    function getCookie(key){
+        // 先获取所有cookie
+        var cookies = document.cookie;
+        if(cookies.length === 0){
+            return '';
+        }
+        // 拆分每一个cookie
+        cookies = cookies.split('; ');
+        for(var i=0;i<cookies.length;i++){
+            // 拆分key,value
+            var arr = cookies[i].split('=');
+            if(arr[0] === key){
+                return arr[1];
+            }
+        }
+    }
 
     
     

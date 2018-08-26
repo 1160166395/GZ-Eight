@@ -140,16 +140,11 @@ body{
             background: #fff;
             margin-top:18px;
             a{
-                margin-top:10px;
+                margin-top:15px;
                 width: 80px;
                 height: 28px;
                 display:block;
-                padding: 0 45px;
-                .two{
-                    font-size:24px;
-                    padding-left:8px;
-                    color:$main-color;
-                }
+                padding: 0 68px;
                 span{
                     background: url(../img/header-img.png) no-repeat -105px 0;
                     width: 35px;
@@ -158,8 +153,10 @@ body{
                     position:$F-position;
                     b{
                         position:$C-position;
-                        left:15px;
+                        left:14px;
                         color:$main-color;
+                        font-size: 18px;
+                        top: -7px;
                     }
                 }
                 

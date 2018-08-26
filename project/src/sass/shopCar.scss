@@ -26,11 +26,12 @@
         .cart_table{
             width:1200px;
             text-align:center;
-            .goodqty{
-                input{
-                    width: 60px;
-                    text-align:center;
-                }
+            input{
+                width: 60px;
+                text-align:center;
+            }
+            .qty{
+                height: 20px;
             }
             .del{
                 button{
@@ -79,21 +80,21 @@
             
         }
         .btn{
-            margin:50px 0  0 866px;
+            margin:50px 0  0 1000px;
+            padding-left: 10px;
+            width: 150px;
+            height: 40px;
+            background: rgb(255, 81, 0);
+            color:#fff;
+            font-size:24px;
+            line-height: 40px;
             span{
-                display:block;
+                display:inline-block;
                 line-height:30px;
-                color:rgb(255, 0, 0);
+                // color:rgb(255, 0, 0);
+                margin-left: 10px;
+                
 
-            }
-            button{
-                color: #EAF9FF;
-                background: #b01d03;
-                padding:7px;
-            }
-            p{
-                float:left;
-                line-height:30px;
             }
         }
     }

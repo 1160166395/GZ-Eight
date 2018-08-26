@@ -49,13 +49,11 @@ body { min-width: 1200px; background: #f7f8f8; }
 
 #Y_header .logo .carbtn { width: 170px; height: 42px; border: 1px solid #008842; background: #fff; margin-top: 18px; }
 
-#Y_header .logo .carbtn a { margin-top: 10px; width: 80px; height: 28px; display: block; padding: 0 45px; }
-
-#Y_header .logo .carbtn a .two { font-size: 24px; padding-left: 8px; color: #008842; }
+#Y_header .logo .carbtn a { margin-top: 15px; width: 80px; height: 28px; display: block; padding: 0 68px; }
 
 #Y_header .logo .carbtn a span { background: url(../img/header-img.png) no-repeat -105px 0; width: 35px; height: 18px; display: inline-block; position: relative; }
 
-#Y_header .logo .carbtn a span b { position: absolute; left: 15px; color: #008842; }
+#Y_header .logo .carbtn a span b { position: absolute; left: 14px; color: #008842; font-size: 18px; top: -7px; }
 
 #Y_header .logo1 { height: 46px; width: 100%; position: fixed; left: 0; top: 0; z-index: 1999; opacity: 0.93; }
 
@@ -207,7 +205,9 @@ body { min-width: 1200px; background: #f7f8f8; }
 
 .cart_main .container .cart_table { width: 1200px; text-align: center; }
 
-.cart_main .container .cart_table .goodqty input { width: 60px; text-align: center; }
+.cart_main .container .cart_table input { width: 60px; text-align: center; }
+
+.cart_main .container .cart_table .qty { height: 20px; }
 
 .cart_main .container .cart_table .del button { width: 40px; height: 30px; background: #b01d03; color: #fff; }
 
@@ -225,10 +225,6 @@ body { min-width: 1200px; background: #f7f8f8; }
 
 .cart_main .container .cart_table tr td:nth-last-child(2) { color: #e71a0f; }
 
-.cart_main .container .btn { margin: 50px 0  0 866px; }
+.cart_main .container .btn { margin: 50px 0  0 1000px; padding-left: 10px; width: 150px; height: 40px; background: #ff5100; color: #fff; font-size: 24px; line-height: 40px; }
 
-.cart_main .container .btn span { display: block; line-height: 30px; color: red; }
-
-.cart_main .container .btn button { color: #EAF9FF; background: #b01d03; padding: 7px; }
-
-.cart_main .container .btn p { float: left; line-height: 30px; }
+.cart_main .container .btn span { display: inline-block; line-height: 30px; margin-left: 10px; }
