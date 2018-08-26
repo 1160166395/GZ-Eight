@@ -308,17 +308,19 @@
                             .addcart{
                                 width: 187px;
                                 height: 43px;
-                                background: $main-color;
-                                border-radius: 5px;
-                                margin-left: 10px;
-                                line-height: 43px;
                                 
-                                a{
-                                    display: block;
+                                
+                                margin-left: 10px;
+                                
+                                
+                                .btn-gn{
+                                    background: $main-color;
                                     width: 187px;
-                                    height: 28px;
+                                    height: 43px;
+                                    border-radius: 5px;
                                     text-align: center;
-                                    padding-top: 10px;
+                                    line-height: 43px;
+                                    
                                     color:#fff;
                                     font: normal 18px/25px "Microsoft YaHei";
                                     // padding:25px;

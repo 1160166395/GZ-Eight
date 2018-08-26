@@ -307,11 +307,11 @@ body { min-width: 1200px; background: #f7f8f8; }
 
 #Y_main .product .pro .right .xiangq-top .bottom .pro-amount .dd .spinner input { width: 39px; height: 39px; line-height: 41px; font-size: 16px; text-align: center; border: none; -webkit-appearance: none; border: 1px solid #e2e2e2; border-right: none; }
 
-#Y_main .product .pro .right .xiangq-top .bottom .pro-amount .addcart { width: 187px; height: 43px; background: #008842; border-radius: 5px; margin-left: 10px; line-height: 43px; }
+#Y_main .product .pro .right .xiangq-top .bottom .pro-amount .addcart { width: 187px; height: 43px; margin-left: 10px; }
 
-#Y_main .product .pro .right .xiangq-top .bottom .pro-amount .addcart a { display: block; width: 187px; height: 28px; text-align: center; padding-top: 10px; color: #fff; font: normal 18px/25px "Microsoft YaHei"; }
+#Y_main .product .pro .right .xiangq-top .bottom .pro-amount .addcart .btn-gn { background: #008842; width: 187px; height: 43px; border-radius: 5px; text-align: center; line-height: 43px; color: #fff; font: normal 18px/25px "Microsoft YaHei"; }
 
-#Y_main .product .pro .right .xiangq-top .bottom .pro-amount .addcart a i { width: 28px; height: 25px; margin-right: 10px; vertical-align: bottom; background: url(../img/product.png) no-repeat -47px 0; }
+#Y_main .product .pro .right .xiangq-top .bottom .pro-amount .addcart .btn-gn i { width: 28px; height: 25px; margin-right: 10px; vertical-align: bottom; background: url(../img/product.png) no-repeat -47px 0; }
 
 #Y_main .product .pro .right .xiangq-top .bottom .pro-amount .addcart:hover { background: #5fb447; }
 

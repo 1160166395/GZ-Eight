@@ -7,10 +7,13 @@
     <title>易果网</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/shopCar.css">
+    <script type="text/javascript" src="libs/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/shopCar.js"></script>
 </head>
 <body>
-    <div id="Y_header">
-        <div class="container">
+    <div id="Y_header" class="clearfix">
+        <div class="container clearfix">
             <div class="site-nav clearfix">
                 <div class="site-left fl">
                     <p class="fl fs">欢迎光临易果生鲜！</p>
@@ -28,232 +31,30 @@
         </div>
         <div class="logo clearfix">
             <div class="container clearfix">
-                <h1 class="fl"><a href="#" class="logoa"></a></h1>
-                <div class="form fl">
-                    <input type="text" value="输入商品名/编号/拼音"><button>搜索</button>
-
-                    <p>奇异果<i>澳大利亚脐橙</i>西瓜<i>蓝莓</i>黑猪肉<i>鳕鱼</i>贝类<i>三文鱼</i></p>
-                </div>
-                <div class="carbtn fr">
-                    <a href="#">
-                        <span><b>0</b></span>
-                        <b class="two">0.0</b>
-                    </a>
-                </div>
+                <h1 class="fl"><a href="./index.html" class="logoa"></a></h1>
+                <div class="carlist fr"><img src="img/carlist.png" alt=""></div>
             </div>
 
         </div>
     </div>
-    <div id="Y_nav">
-        <div class="container">
-            <div class="nav-all fl">
-                <div class="nav-top">
-                    全部商品分类<i></i>
-                </div>
-                <ul>
-                    <li>
-                        <a href="#"><i></i>进口水果</a>
-                        <div class="one all">
-                            <h3><a class="first">进口水果</a></h3>
-                            <a href="#">奇异果</a>
-                            <a href="#">车厘子</a>
-                            <a href="#">李</a>
-                            <a href="#">莓</a>
-                            <a href="#">牛油果</a>
-                            <a href="#">提子</a>
-                            <a href="#">苹果</a>
-                            <a href="#">梨</a>
-                            <a href="#">柑桔橙柚</a>
-                            <a href="#">山竹</a>
-                            <a href="#">香蕉</a>
-                            <a href="#">火龙果</a>
-                            <a href="#">椰子</a>
-                            <a href="#">芒果</a>
-                            <a href="#">凤梨</a>
-                            <a href="#">榴莲</a>
-                            <a href="#">热带水果</a>
-                            <a href="#">时令水果</a>
-                            <a href="#">原箱水果</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#"><i class="nav1"></i>国产水果</a>
-                        <div class="two all">
-                            <h3><a class="first">国产水果</a></h3>
-                            <a href="#">苹果</a>
-                            <a href="#">梨</a>
-                            <a href="#">樱桃</a>
-                            <a href="#">柑桔橙柚</a>
-                            <a href="#">瓜</a>
-                            <a href="#">葡萄</a>
-                            <a href="#">桃</a>
-                            <a href="#">李</a>
-                            <a href="#">枣</a>
-                            <a href="#">莓</a>
-                            <a href="#">芒果</a>
-                            <a href="#">凤梨</a>
-                            <a href="#">芭乐</a>
-                            <a href="#">百香果</a>
-                            <a href="#">热带水果</a>
-                            <a href="#">时令水果</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#"><i class="nav11"></i>精选肉类</a>
-                        <div class="three all">
-                            <h3><a class="first">精选肉类</a></h3>
-                            <a href="#">牛排</a>
-                            <a href="#">冰鲜肉</a>
-                            <a href="#">进口牛肉</a>
-                            <a href="#">国产牛肉</a>
-                            <a href="#">猪肉</a>
-                            <a href="#">羊肉</a>
-                            <a href="#">香肠</a>
-                            <a href="#">肉制品</a>
-                            <a href="#">进口鹿肉</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#"><i class="nav2"></i>禽类蛋品</a>
-                        <div class="four all">
-                            <h3><a class="first">禽类蛋品</a></h3>
-                            <a href="#">牛排</a>
-                            <a href="#">冰鲜肉</a>
-                            <a href="#">进口牛肉</a>
-                            <a href="#">国产牛肉</a>
-                            <a href="#">猪肉</a>
-                            <a href="#">羊肉</a>
-                            <a href="#">香肠</a>
-                            <a href="#">肉制品</a>
-                            <a href="#">进口鹿肉</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#"><i class="nav3"></i>即烹美食</a>
-                        <div class="five all">
-                            <h3><a class="first">即烹美食</a></h3>
-                            <a href="#">独家秘制</a>
-                            <a href="#">生猛海鲜</a>
-                            <a href="#">日韩料理</a>
-                            <a href="#">经典主菜</a>
-                            <a href="#">中华美食</a>
-                            <a href="#">精致西餐</a>
-                            <a href="#">开胃小菜</a>
-                            <a href="#">东南亚风味</a>
-                            <a href="#">田园时蔬</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#"><i class="nav4"></i>海鲜水产</a>
-                        <div class="six all">
-                            <h3><a class="first">海鲜水产</a></h3>
-                            <a href="#">银鳕鱼</a>
-                            <a href="#">虾仁</a>
-                            <a href="#">鱼</a>
-                            <a href="#">三文鱼</a>
-                            <a href="#">虾</a>
-                            <a href="#">蟹</a>
-                            <a href="#">贝</a>
-                            <a href="#">活鲜</a>
-                            <a href="#">海产干货</a>
-                            <a href="#">特色海产</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#"><i class="nav5"></i>乳品糕点</a>
-                        <div class="seven all">
-                            <h3><a class="first">乳品糕点</a></h3>
-                            <a href="#">奶酪</a>
-                            <a href="#">酸奶/乳酸</a>
-                            <a href="#">牛奶</a>
-                            <a href="#">面包</a>
-                            <a href="#">蛋糕</a>
-                            <a href="#">甜点</a>
-                            <a href="#">月饼</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#"><i class="nav6"></i>新鲜蔬菜</a>
-                        <div class="eight all">
-                            <h3><a class="first">新鲜蔬菜</a></h3>
-                            <a href="#">叶菜类</a>
-                            <a href="#">根茎类</a>
-                            <a href="#">茄果/瓜果</a>
-                            <a href="#">花菜/豆类</a>
-                            <a href="#">菌菇</a>
-                            <a href="#">沙拉菜</a>
-                            <a href="#">豆制品</a>
-                            <a href="#">葱蒜类</a>
-                            <a href="#">蔬菜组合</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#"><i class="nav7"></i>方便速食</a>
-                        <div class="night all">
-                            <h3><a class="first">方便速食</a></h3>
-                            <a href="#">养生汤品</a>
-                            <a href="#">冷冻点心</a>
-                            <a href="#">中式主食</a>
-                            <a href="#">火锅料</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#"><i class="nav8"></i>粮油杂货</a>
-                        <div class="ten all">
-                            <h3><a class="first">粮油杂货</a></h3>
-                            <a href="#">米</a>
-                            <a href="#">杂粮</a>
-                            <a href="#">油</a>
-                            <a href="#">干货</a>
-                            <a href="#">果干/零食</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#"><i class="nav9"></i>饮料酒水</a>
-                        <div class="eleven all">
-                            <h3><a class="first">饮料酒水</a></h3>
-                            <a href="#">果汁/饮料</a>
-                            <a href="#">冲调饮品</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#"><i class="nav10"></i>礼品礼券</a>
-                        <div class="twelve all">
-                            <h3><a class="first">礼品礼券</a></h3>
-                            <a href="#">礼品礼盒</a>
-                            <a href="#">礼卡礼券</a>
-                            <a href="#">原膳礼盒</a>
-                            <a href="#">智能硬件</a>
-                        </div>
-                    </li>
-
-                </ul>
-            </div>
+    <div class="cart_main">
+        <div class="container clearfix">
+            <table class="cart_table">
+                <tr class="cart_th">
+                    <th><input type="checkbox" class="allchoose"></th>
+                    <th>全选</th>
+                    <th>商品信息</th>
+                    <th>金额</th>
+                    <th>数量</th>
+                    <th>规格</th>
+                    <th>小计</th>
+                    <th>操作</th>
+                </tr>	
+            </table>
+            <div class="btn"></div>
         </div>
     </div>
-<div id="Y_footer">
-        <div class="footer_service">
-            <div class="container">
-                <ul>
-                    <li class="s1">
-                        <b>全球精选</b>
-                        <span>一站式生鲜购物方案</span>
-                    </li>
-                    <li class="s2">
-                        <b>多仓直发</b>
-                        <span>特有次日达配送服务</span>
-                    </li>
-                    <li class="s3">
-                        <b>源头直采</b>
-                        <span>精选正宗品质好食材</span>
-                    </li>
-                    <li class="s4">
-                        <b>天天底价</b>
-                        <span>会员专属优惠购不停</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <div id="Y_footer">
         <div class="container didi">
             <dl class="col1">
                 <dt>新手指南</dt>

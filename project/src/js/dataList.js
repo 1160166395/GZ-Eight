@@ -2,14 +2,16 @@ jQuery($=>{
     var id = location.search.slice(1).split("=")[1];
     console.log(id)
 
-
     $.ajax({
         type: "get",
         url: "http://localhost:1804/project/src/api/dataList.php",
         data: {id:id},
+        dataType:'json',
         success: function(data){
-            let wdata = JSON.parse(data);
-            console.log(wdata);
+            console.log(data[0])
+            let wdata = data;
+            
+            //console.log(wdata);
             $('.big img').attr('src', `${wdata[0].img}`);
             $(".zhu-name").text(`${wdata[0].name}`);
             $(".small li img").attr('src',`${wdata[0].img}`);
@@ -18,9 +20,54 @@ jQuery($=>{
             $(".jiaqian").text(`￥${wdata[0].price}`);
             $(".rongliang").text(`${wdata[0].qty}`);
             $(".place span").text(`${wdata[0].place}`);
+            var goodslist = getCookie('goodslist') || [];
+    if(typeof goodslist === 'string'){
+        console.log(goodslist)
+        goodslist = JSON.parse(goodslist);
+         
+    }
+    
+    $("#btnAddcart").on("click",function(e){
+        console.log(6666)
+        var val = $(".spin").val();
+        var idx;
+        var has = goodslist.some(function(g,i){
+            idx = i;
+            return g.id === id;
+        });
+        if(has){
+            goodslist[idx].qty=(goodslist[idx].qty)*1+val*1;
+        }else{
+                // 获取商品信息
+                var goods = {
+                    id:data[0].id,
+                    name:data[0].name,
+                    img:data[0].img,
+                    price:data[0].price,
+                    guige:data[0].qty,
+                    // 商品数量
+                    qty:val 
+                };
+                goodslist.push(goods);
+        }
+                //if(e.target == $('.join').get(0) || e.target == $('.buyit').get(0)){
+        var now=new Date();
+        now.setDate(now.getDate()+7);
+        document.cookie='goodslist='+JSON.stringify(goodslist)+';expires='+now.toUTCString()+';path=/';
+
+                //}
+                //if(e.target == $('.join').get(0)){
+                    //$('.animate').fadeIn(500).animate({top:"-4px"},500).fadeOut(500).animate({top:'-330px'},500);
+                //}
+                //if(e.target == $('.buyit').get(0)){
+                    //location.href='shoppingCart.html?id'+par;
+                //}       
+    })
+            
         }
     })
 
+    
 
     function getCookie(key){
         // 先获取所有cookie
@@ -39,8 +86,8 @@ jQuery($=>{
         }
     }
 
-    var cookies = getCookie('username');
-    var username = getCookie('username').replace(/\"/g, "");
+    var cookies = getCookie('userid');
+    //var username = getCookie('userid').replace(/\"/g, "");
     var qty = $(".spin").val();
         //数量增减
 
@@ -65,6 +112,7 @@ jQuery($=>{
             $('.decrease').attr('disabled',true);
         };
     })
+
     
     //放大镜
     // $(".big").hiZoom({

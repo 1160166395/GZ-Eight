@@ -1,0 +1,100 @@
+@import "common";
+
+.carlist{
+    height: 78px;
+    width: 450px;
+    img{
+        height: 55px;
+        width: 450px;
+        margin-top: 12px;
+    }
+}
+#Y_footer{
+    border-top: 1px solid #ccc;
+    .didi{
+        margin-top: 100px;
+        
+    }
+    
+    
+
+
+}
+.cart_main{
+    margin-top:120px;
+    .container{
+        .cart_table{
+            width:1200px;
+            text-align:center;
+            .goodqty{
+                input{
+                    width: 60px;
+                    text-align:center;
+                }
+            }
+            .del{
+                button{
+                    width: 40px;
+                    height: 30px;
+                    background: #b01d03;
+                    color:#fff;
+                }
+            }
+            .singlePrice{
+                font-weight:bold;
+            }
+            .goodsname{
+                color:#888;
+            }
+            
+            .cart_th{
+                width:1200px;
+                 margin-bottom: 10px;
+                 height: 34px;
+                 line-height: 34px;
+                 border: 1px solid #ececec;
+                 background-color: #f3f3f3;
+
+            }
+
+            img{
+                width: 60px;
+                height: 60px;
+            }
+            td{
+                color: #333;
+                font-size: 12px;
+                line-height: 20px;
+                margin-top: -2px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            tr{
+                background-color: #EAF9FF;
+                border-bottom: 1px solid #D1E9F2;
+                td:nth-last-child(2){
+                color: #e71a0f;
+                }
+            }
+            
+        }
+        .btn{
+            margin:50px 0  0 866px;
+            span{
+                display:block;
+                line-height:30px;
+                color:rgb(255, 0, 0);
+
+            }
+            button{
+                color: #EAF9FF;
+                background: #b01d03;
+                padding:7px;
+            }
+            p{
+                float:left;
+                line-height:30px;
+            }
+        }
+    }
+}
