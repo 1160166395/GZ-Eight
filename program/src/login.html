@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>1药用户登录</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/sass/login.css">
+</head>
+<body>
+	<div class="yy_login">
+		<div class="container clearfix">
+			<div class="wrap_head clearfix">
+				<a href="./index.html"><div class="logo fl"></div></a>
+			</div>
+			<div class="wrap_login clearfix">
+				<div class="login_left fl"></div>
+				<div class="login_right fr">
+					<div class="tab_top">
+						<div class="normal_log fl">
+							<a href="#" class="active">
+								普通登录
+							</a>
+						</div>
+						<div class="phone_log fl">
+							<a href="#">
+								手机登录
+							</a>
+						</div>
+					</div>
+
+					<div class="log_main">
+						<p>
+							<span>Hi,欢迎登录</span>
+
+							<span>还不是1药网会员?<a href="./regist.html">免费注册</a></span>
+							
+						</p>
+						<!-- 普通注册 -->
+							<form class="normalForm" >
+								<div class="log_row">
+									<input type="text" name="" placeholder="邮箱/手机号/用户名" id="username">
+								</div>
+								<div class="log_row">
+									<input type="password" name="" placeholder="登录密码" id="password">
+								</div>
+								<div class="log_row">
+									<input type="text" name="" placeholder="验证码" class="yzm">
+									<button class="yzm_val" >1425</button>
+									<a href="#">换一张</a>
+								</div>
+								<div class="log_bottom">
+									<div>
+										<label for="twoWeeks">
+										<input type="checkbox" name="seven" id="twoWeeks">
+										<span>两周内免登录</span>
+										</label>
+									</div>
+									<div class="sub_btn1">登录</div>
+								</div>
+							</form>
+
+						<!-- 手机注册 -->
+							<form class="phoneForm" style="display: none;">
+								<div class="log_row">
+									<input type="text" class="phoneNum" placeholder="请输入您的手机号">
+								</div>
+								
+								<div class="log_row">
+									<input type="text" name="" placeholder="请输入短信验证码" class="phoneMsg fl">
+									<button class="phone_msg" >获取短信验证码</button>
+									
+								</div>
+								<div class="log_bottom">
+									<div>
+										<label for="twoWeeks">
+										<input type="checkbox" name="seven" >
+										<span>两周内免登录</span>
+										</label>
+									</div>
+									<button class="sub_btn2">登录</button>
+								</div>
+							</form>
+
+
+
+
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<script type="text/javascript" src="libs/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/login.js"></script>
+</body>
+</html>

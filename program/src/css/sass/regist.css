@@ -1,0 +1,102 @@
+#Y-regist .container {
+  width: 990px;
+  background-color: #fff; }
+  #Y-regist .container .reg_title a {
+    display: block;
+    text-indent: -10000px;
+    height: 98px;
+    width: 180px;
+    background: url("../../img/logo1.png") no-repeat; }
+  #Y-regist .container .reg_main {
+    border: 1px solid #ccc;
+    border-top: 2px solid #99f;
+    height: 414px;
+    overflow: hidden;
+    box-shadow: -1px 1px 10px #EFEFEF, -1px 10px 10px #EFEFEF; }
+    #Y-regist .container .reg_main h2 {
+      font: 20px;
+      margin: 13px 0;
+      padding-left: 50px;
+      padding-right: 18px; }
+      #Y-regist .container .reg_main h2 span {
+        float: right;
+        font-size: 12px; }
+        #Y-regist .container .reg_main h2 span a {
+          color: #0099F1; }
+    #Y-regist .container .reg_main .reg_bottom {
+      height: 365px;
+      padding-left: 100px;
+      padding-top: 5px;
+      position: relative; }
+      #Y-regist .container .reg_main .reg_bottom .reg_sao {
+        position: absolute;
+        width: 500px;
+        height: 372px;
+        right: 0;
+        bottom: 0;
+        background: url("../../img/reg_sao.jpg") no-repeat; }
+      #Y-regist .container .reg_main .reg_bottom .btn_reg:hover {
+        background-color: #0083ce; }
+      #Y-regist .container .reg_main .reg_bottom .btn_reg {
+        margin-top: 6px;
+        display: inline-block;
+        width: 342px;
+        height: 36px;
+        margin-bottom: 0;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        padding: 6px 12px;
+        font-size: 16px;
+        background-color: #0099F1;
+        border-bottom: #0083ce 2px solid;
+        color: #fff;
+        border-radius: 1px; }
+      #Y-regist .container .reg_main .reg_bottom span {
+        font-size: 12px; }
+      #Y-regist .container .reg_main .reg_bottom a {
+        font-size: 12px; }
+      #Y-regist .container .reg_main .reg_bottom .reg_row {
+        height: 70px;
+        width: 342px;
+        position: relative; }
+        #Y-regist .container .reg_main .reg_bottom .reg_row i {
+          position: absolute;
+          width: 21px;
+          height: 24px;
+          left: 8px;
+          top: 12px;
+          background: url("../../img/regest.png") 0 -154px no-repeat; }
+        #Y-regist .container .reg_main .reg_bottom .reg_row .pe {
+          background: url("../../img/regest.png") 0 -122px no-repeat; }
+        #Y-regist .container .reg_main .reg_bottom .reg_row input {
+          display: inline-block;
+          width: 286px;
+          height: 26px;
+          padding: 6px 12px 6px 40px;
+          font-size: 14px;
+          vertical-align: bottom;
+          line-height: 40px;
+          border: #ffaa00 1px solid; }
+      #Y-regist .container .reg_main .reg_bottom .reg-pay {
+        margin-top: 20px; }
+        #Y-regist .container .reg_main .reg_bottom .reg-pay p {
+          font-size: 12px;
+          margin-bottom: 10px; }
+        #Y-regist .container .reg_main .reg_bottom .reg-pay a {
+          display: inline-block;
+          height: 39px;
+          width: 39px;
+          margin-right: 10px;
+          background: url("../../img/img_zhifu.png"); }
+        #Y-regist .container .reg_main .reg_bottom .reg-pay .zhifu {
+          background-position: -47px 0px; }
+        #Y-regist .container .reg_main .reg_bottom .reg-pay .QQ {
+          background-position: -95px 0px; }
+        #Y-regist .container .reg_main .reg_bottom .reg-pay .sina {
+          background-position: -143px 0px; }
+        #Y-regist .container .reg_main .reg_bottom .reg-pay .wlt {
+          background-position: -191px 0px; }
+        #Y-regist .container .reg_main .reg_bottom .reg-pay .yi {
+          background-position: -241px 0px; }

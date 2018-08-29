@@ -1,0 +1,236 @@
+#Y-header .nav_top {
+  position: relative; }
+  #Y-header .nav_top .classify > div ul {
+    position: absolute;
+    display: none; }
+  #Y-header .nav_top .classify > div:hover ul {
+    display: block; }
+
+#produce_top .container {
+  width: 990px; }
+  #produce_top .container .detail_nav {
+    height: 44px;
+    padding: 10px 0 18px 0; }
+    #produce_top .container .detail_nav span {
+      padding-left: 15px; }
+      #produce_top .container .detail_nav span a {
+        color: #333;
+        font-size: 12px; }
+  #produce_top .container .detail_top {
+    height: 458px;
+    position: relative; }
+    #produce_top .container .detail_top .detail_left .showpic {
+      width: 300px;
+      height: 406px;
+      margin-right: 18px; }
+      #produce_top .container .detail_top .detail_left .showpic .bigPic img {
+        display: block;
+        width: 298px;
+        height: 298px; }
+      #produce_top .container .detail_top .detail_left .showpic .smallPic {
+        width: 210px;
+        margin: 0 auto;
+        margin-top: 310px; }
+        #produce_top .container .detail_top .detail_left .showpic .smallPic li {
+          float: left; }
+          #produce_top .container .detail_top .detail_left .showpic .smallPic li img {
+            border: 1px solid black;
+            width: 50px;
+            height: 50px;
+            margin-left: -1px; }
+        #produce_top .container .detail_top .detail_left .showpic .smallPic li:hover img {
+          border-color: red; }
+    #produce_top .container .detail_top .detail_mid {
+      width: 465px;
+      height: 458px; }
+      #produce_top .container .detail_top .detail_mid h2 {
+        margin-bottom: 10px;
+        font-size: 17px;
+        font-weight: 700; }
+      #produce_top .container .detail_top .detail_mid .exp {
+        font-size: 12px;
+        color: red; }
+      #produce_top .container .detail_top .detail_mid .pris {
+        height: 49px;
+        padding-bottom: 15px;
+        line-height: 49px;
+        font-size: 12px;
+        padding-left: 10px; }
+        #produce_top .container .detail_top .detail_mid .pris .price {
+          font-size: 24px;
+          color: red;
+          padding-right: 15px;
+          font-family: "Microsoft Yahei"; }
+        #produce_top .container .detail_top .detail_mid .pris .reviews a {
+          font-size: 18px;
+          color: #505050; }
+      #produce_top .container .detail_top .detail_mid .numSetting {
+        height: 55px;
+        padding-bottom: 15px; }
+        #produce_top .container .detail_top .detail_mid .numSetting > span {
+          display: block;
+          float: left;
+          line-height: 40px;
+          padding-right: 5px; }
+        #produce_top .container .detail_top .detail_mid .numSetting .numBox {
+          float: left;
+          width: 106px;
+          height: 40px;
+          position: relative; }
+          #produce_top .container .detail_top .detail_mid .numSetting .numBox .num {
+            width: 73px;
+            height: 38px;
+            line-height: 38px;
+            padding: 0 5px;
+            border: 1px solid #e6e6e6;
+            font-size: 14px; }
+          #produce_top .container .detail_top .detail_mid .numSetting .numBox button {
+            width: 19px;
+            height: 19px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            cursor: pointer; }
+          #produce_top .container .detail_top .detail_mid .numSetting .numBox .minus {
+            top: 20px; }
+      #produce_top .container .detail_top .detail_mid .mobPrice {
+        width: 240px;
+        height: 30px;
+        border: 1px solid #e6e6e6;
+        background-color: #f8f8f8;
+        position: relative;
+        text-indent: 4px;
+        margin-bottom: 14px; }
+        #produce_top .container .detail_top .detail_mid .mobPrice i {
+          display: block;
+          float: left;
+          width: 15px;
+          height: 19px;
+          color: red;
+          margin: 5px; }
+        #produce_top .container .detail_top .detail_mid .mobPrice span {
+          font-size: 12px;
+          color: #5e5e5e;
+          line-height: 28px; }
+        #produce_top .container .detail_top .detail_mid .mobPrice a {
+          font-size: 12px;
+          color: red; }
+        #produce_top .container .detail_top .detail_mid .mobPrice a:hover {
+          text-decoration: underline; }
+      #produce_top .container .detail_top .detail_mid .addCart {
+        position: relative; }
+        #produce_top .container .detail_top .detail_mid .addCart i {
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          top: 6px;
+          left: 38px;
+          font-size: 35px;
+          color: #fff;
+          cursor: pointer; }
+        #produce_top .container .detail_top .detail_mid .addCart button {
+          width: 240px;
+          height: 53px;
+          background-color: #E72418;
+          color: #fff;
+          font-size: 18px;
+          cursor: pointer;
+          padding: 0 60px 0 90px;
+          border-bottom: 3px solid #9a0900;
+          border: 0 solid #9a0900; }
+      #produce_top .container .detail_top .detail_mid .addCart:hover button {
+        background-color: red; }
+      #produce_top .container .detail_top .detail_mid .addCart:hover i {
+        background-color: red; }
+      #produce_top .container .detail_top .detail_mid .proTips {
+        margin-top: 20px;
+        color: #999;
+        font-size: 12px; }
+      #produce_top .container .detail_top .detail_mid .real {
+        height: 19px; }
+        #produce_top .container .detail_top .detail_mid .real a {
+          font-size: 12px;
+          color: #5e5e5e; }
+        #produce_top .container .detail_top .detail_mid .real a:hover {
+          color: red;
+          text-decoration: underline; }
+    #produce_top .container .detail_top .detail_right {
+      width: 191px;
+      height: 245px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: url("../../img/goods/AppCode.png") no-repeat; }
+  #produce_top .container .detail_bottom .db_left {
+    width: 180px;
+    height: 2662px; }
+    #produce_top .container .detail_bottom .db_left .info_box {
+      border: 1px solid #e6e6e6;
+      color: #5e5e5e;
+      margin-bottom: 10px; }
+      #produce_top .container .detail_bottom .db_left .info_box h2 {
+        background-color: #f7f7f7;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 8px 9px 9px;
+        border-bottom: 1px solid #e6e6e6; }
+      #produce_top .container .detail_bottom .db_left .info_box .info_list01 {
+        padding: 10px 0 20px;
+        background-color: #fff; }
+        #produce_top .container .detail_bottom .db_left .info_box .info_list01 li {
+          float: left;
+          padding: 7px 0 0 9px;
+          width: 80px;
+          height: 20px; }
+          #produce_top .container .detail_bottom .db_left .info_box .info_list01 li a {
+            font-size: 12px;
+            color: #333; }
+  #produce_top .container .detail_bottom .db_right {
+    width: 790px;
+    background-color: #fff; }
+    #produce_top .container .detail_bottom .db_right .detail_menu {
+      border: 1px solid #e6e6e6;
+      border-top: 2px solid #0083ce;
+      background-color: #f7f7f7;
+      margin-bottom: 10px; }
+      #produce_top .container .detail_bottom .db_right .detail_menu > ul > li {
+        float: left; }
+        #produce_top .container .detail_bottom .db_right .detail_menu > ul > li a {
+          display: block;
+          height: 38px;
+          width: 118px;
+          font-size: 14px;
+          line-height: 38px;
+          text-align: center;
+          color: #5e5e5e;
+          border-right: 1px solid #e6e6e6;
+          margin-bottom: -1px; }
+      #produce_top .container .detail_bottom .db_right .detail_menu > ul li:hover a {
+        background-color: #fff;
+        color: #0083ce;
+        font-weight: 700; }
+    #produce_top .container .detail_bottom .db_right .tabCon .goods_intro {
+      height: 166px;
+      margin-bottom: 10px;
+      background-color: #F7F7F7;
+      padding: 17px 30px; }
+      #produce_top .container .detail_bottom .db_right .tabCon .goods_intro table {
+        width: 100%; }
+        #produce_top .container .detail_bottom .db_right .tabCon .goods_intro table tr th {
+          text-align: left;
+          vertical-align: top;
+          font-weight: 400;
+          font-size: 12px;
+          color: #818181;
+          padding: 5px 0; }
+        #produce_top .container .detail_bottom .db_right .tabCon .goods_intro table tr td {
+          text-align: left;
+          vertical-align: top;
+          font-weight: 400;
+          font-size: 12px;
+          color: #818181;
+          padding: 5px 0; }
+
+.ZoomContainer .zoomLens {
+  height: 40px;
+  width: 298px; }

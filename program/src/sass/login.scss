@@ -1,0 +1,175 @@
+.yy_login{
+	.container{
+		width: 990px;
+		.wrap_head{
+			.logo{
+				width: 180px;
+				height: 98px;
+				background:url("../../img/logo1.png") no-repeat;
+			}
+			
+ 		}
+ 		.wrap_login{
+ 			height: 460px;
+ 			background-color: #fff;
+ 			border: #e6e6e6 1px solid;
+		    border-top: #0083ce 2px solid;
+		    box-shadow: -1px 1px 10px #EFEFEF, -1px 10px 10px #EFEFEF;
+
+		    .login_left{
+		    	width: 560px;
+		    	height: 363px;
+		    	background:url("../../img/login_pic.png") no-repeat;
+		    }
+		    .login_right{
+		    	// padding-top:8px;
+		    	height: 460px;
+		    	width: 428px;
+		    	.tab_top{
+		    		height: 46px;
+		    		border-bottom:1px solid #E2E2E2;
+		    		div{
+		    			width: 154px;
+		    			padding-left:30px;
+		    			padding-right:30px;
+		    			text-align:center;
+		    			line-height:46px;
+		    			position:relative;
+		    			a{
+		    				height: 45px;
+							display:block;
+							font-size:12px;
+		    				color:#000;
+		    			}
+		    		}
+
+		    		.active{
+		    			color:#2C9EE1;
+		    			border-bottom:2px solid #2C9EE0;
+		    		}
+		    		.normal_log::after{
+		    			content:"";
+		    			display:block;
+		    			width:1px;
+		    			height: 25px;
+		    			background-color: #E2E2E2;
+		    			position:absolute;
+		    			top:50%;
+		    			right:0;
+		    			transform:translate(0,-50%);
+		    		}
+		    		
+		    	}
+				//登录输入框
+		    	.log_main{
+		    		>p{
+		    			height: 47px;
+		    			line-height:47px;
+		    			padding:0 31px 0 30px;
+		    			font-size:16px;
+						span:nth-child(2){
+							font-size:12px;
+							float:right;
+						}
+		    		}
+		    		form{
+		    			padding-left:30px;
+		    			.log_row{
+						height: 70px;
+						input{
+							    display: block;
+							    width: 340px;
+							    height: 40px;
+							    padding: 6px 12px 6px 40px;
+							    font-size: 14px;
+							    // line-height: 1.4;
+							    vertical-align: middle;
+							    background-color: transparent;
+							    border: 1px solid #e6e6e6;
+							   
+						} //input$
+						.phoneMsg{
+							width: 194px;
+						   
+						    background: url(http://s.maiyaole.com/images/baogang/logo_key.png) 18px center no-repeat;
+						    display: block;
+						    padding: 10px;
+						     padding-left: 42px;
+						    border: 1px solid #e6e6e6;
+						    font-size: 14px;
+						    line-height: 20px;
+						    font-size: 12px ;
+    						color: #5E5E5E;
+    						margin-right:10px;
+						}
+						.phoneNum{
+							    background: url(http://s.maiyaole.com/images/baogang/logo_phone.png) 18px center no-repeat;
+						}
+						.yzm{
+							    width: 150px;
+							    margin-right: 10px;
+							    padding-left: 10px;
+							    float: left;
+						}
+						.yzm_val{
+							width: 100px;
+							height: 40px;
+							font-size:27px;
+							outline:none;
+						}
+						.phone_msg{
+							display: block;
+						    width: 120px;
+						    height: 40px;
+						    padding: 0;
+						    border: 1px solid #C6E1F0;
+						    font-size: 14px;
+						    line-height: 40px;
+						    text-align: center;
+						    color: #5CBAF0;
+						    background-color: #F1FAFF;
+						    cursor:pointer;
+						}
+
+					   }//log_row$
+						
+
+						.log_bottom{
+							width: 368px;
+							height: 65px;
+							font-size:12px;
+							color:#5e5e5e;
+							div{margin-bottom:5px;}
+							>.sub_btn1{
+								    display: inline-block;
+								    width: 326px;
+								    margin-bottom: 0;
+								    font-weight: bold;
+								    text-align: center;
+								    vertical-align: middle;
+								    cursor: pointer;
+								    background-image: none;
+								    border: 1px solid transparent;
+								    white-space: nowrap;
+								    padding: 6px 12px;
+								    font-size: 14px;
+								    line-height: 1.428571429;
+								    background-color: #0099F1;
+								    border-bottom: #0083ce 2px solid;
+								    color: #fff;
+								    font-size: 18px;
+							}
+						}
+
+
+		    		}//form$
+					
+
+
+
+		    	}
+		    }
+ 		}
+	}
+
+}

@@ -1,0 +1,264 @@
+#Y-banner {
+  margin-left: 361px; }
+  #Y-banner .banner_mid .container {
+    height: 400px; }
+    #Y-banner .banner_mid .container .ban_mid {
+      width: 750px;
+      height: 400px;
+      overflow: hidden;
+      position: relative; }
+      #Y-banner .banner_mid .container .ban_mid ul {
+        width: 7000px;
+        position: absolute;
+        left: 0;
+        top: 0; }
+        #Y-banner .banner_mid .container .ban_mid ul li {
+          float: left; }
+      #Y-banner .banner_mid .container .ban_mid .sbox {
+        position: absolute;
+        left: 50%;
+        bottom: 6px;
+        transform: translate(-50%, 0);
+        font-size: 0; }
+        #Y-banner .banner_mid .container .ban_mid .sbox div {
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          border-radius: 50%;
+          margin-right: 10px;
+          background-color: rgba(152, 162, 166, 0.6); }
+        #Y-banner .banner_mid .container .ban_mid .sbox .active_ban {
+          background-color: #3E535A; }
+    #Y-banner .banner_mid .container .ban_right {
+      width: 259px;
+      height: 399px;
+      background-color: #fff;
+      border-right: 1px solid #D2B994;
+      border-bottom: 1px solid #D2B994; }
+      #Y-banner .banner_mid .container .ban_right .cons {
+        height: 28px;
+        padding-left: 53px;
+        padding-right: 53px;
+        padding-top: 6px; }
+        #Y-banner .banner_mid .container .ban_right .cons span {
+          font-size: 15px;
+          line-height: 21px; }
+        #Y-banner .banner_mid .container .ban_right .cons .underline {
+          margin-right: 25px;
+          color: #D2B994;
+          font-weight: bold;
+          height: 21px;
+          border-bottom: 1px solid #D2B994;
+          display: inline-block; }
+      #Y-banner .banner_mid .container .ban_right .cons_text {
+        height: 130px;
+        padding-left: 22px;
+        padding-top: 5px;
+        margin-bottom: 11px; }
+        #Y-banner .banner_mid .container .ban_right .cons_text a {
+          display: inline-block;
+          width: 72px;
+          height: 24px;
+          line-height: 24px;
+          text-align: left;
+          font-size: 14px;
+          color: #505050; }
+          #Y-banner .banner_mid .container .ban_right .cons_text a i {
+            display: inline-block;
+            width: 6px;
+            height: 11px;
+            margin-left: 6px;
+            background: url("../../src/img/icon-banner.png") -14px -451px no-repeat; }
+        #Y-banner .banner_mid .container .ban_right .cons_text a:hover {
+          text-decoration: underline; }
+      #Y-banner .banner_mid .container .ban_right .cons_free {
+        text-align: center;
+        margin-bottom: 7px;
+        margin-left: 10px; }
+      #Y-banner .banner_mid .container .ban_right .good_service {
+        height: 116px;
+        padding-left: 15px;
+        padding-top: 25px; }
+        #Y-banner .banner_mid .container .ban_right .good_service .sers li {
+          float: left; }
+          #Y-banner .banner_mid .container .ban_right .good_service .sers li a {
+            display: block;
+            text-align: center;
+            width: 60px;
+            height: 60px;
+            color: #D2B994; }
+            #Y-banner .banner_mid .container .ban_right .good_service .sers li a i {
+              display: inline-block;
+              margin-bottom: 5px;
+              width: 38px;
+              height: 38px;
+              border-radius: 50%; }
+            #Y-banner .banner_mid .container .ban_right .good_service .sers li a span {
+              display: block;
+              font-size: 11px; }
+        #Y-banner .banner_mid .container .ban_right .good_service .sers li:nth-child(1) a i {
+          background: url("../../src/img/icon-banner.png") -41px -44px no-repeat; }
+        #Y-banner .banner_mid .container .ban_right .good_service .sers li:nth-child(2) a i {
+          background: url("../../src/img/icon-banner.png") -100px -44px no-repeat; }
+        #Y-banner .banner_mid .container .ban_right .good_service .sers li:nth-child(3) a i {
+          background: url("../../src/img/icon-banner.png") -156px -44px no-repeat; }
+        #Y-banner .banner_mid .container .ban_right .good_service .sers li:last-child a {
+          margin-right: 0; }
+          #Y-banner .banner_mid .container .ban_right .good_service .sers li:last-child a i {
+            background: url("../../src/img/icon-banner.png") -214px -44px no-repeat; }
+
+.Y-limitTime .container {
+  background-color: #fff;
+  margin-top: 10px; }
+  .Y-limitTime .container .clock_wrap {
+    width: 180px;
+    height: 150px;
+    float: left;
+    background: url("../../src/img/clock01.png") no-repeat; }
+  .Y-limitTime .container .limit_pill li {
+    float: left; }
+  .Y-limitTime .container .lim_advert {
+    float: left;
+    margin-top: 10px; }
+
+.Y-main .container {
+  background-color: #fff; }
+  .Y-main .container .y_floor {
+    margin-top: 30px;
+    border: 1px solid #f3f3f3;
+    border-top: 2px solid #92C4FF; }
+    .Y-main .container .y_floor .y_floor_left {
+      width: 180px;
+      height: 485px;
+      background-color: #fff; }
+      .Y-main .container .y_floor .y_floor_left .floor_name {
+        width: 180px;
+        height: 85px;
+        background-color: #92C4FF;
+        padding-left: 20px;
+        line-height: 85px;
+        font-size: 20px;
+        color: #fff;
+        font-weight: bold; }
+      .Y-main .container .y_floor .y_floor_left .floor_2 {
+        background-color: #F8F8F8;
+        color: #FFAABB; }
+      .Y-main .container .y_floor .y_floor_left ul li {
+        float: left;
+        width: 89px;
+        height: 49px;
+        font-size: 14px;
+        line-height: 50px;
+        text-align: center;
+        border-bottom: 1px solid #f3f3f3;
+        border-right: 1px solid #f3f3f3; }
+        .Y-main .container .y_floor .y_floor_left ul li a {
+          color: #5E5E5E; }
+      .Y-main .container .y_floor .y_floor_left ul a:hover {
+        text-decoration: underline;
+        color: red; }
+      .Y-main .container .y_floor .y_floor_left ul li:nth-child(2n) {
+        border-right: none; }
+      .Y-main .container .y_floor .y_floor_left ul:last-child li {
+        border-right: 1px solid #f3f3f3; }
+        .Y-main .container .y_floor .y_floor_left ul:last-child li a {
+          display: block; }
+          .Y-main .container .y_floor .y_floor_left ul:last-child li a img {
+            width: 89px;
+            height: 49px; }
+    .Y-main .container .y_floor .y_floor_rt {
+      width: 1008px;
+      height: 284px; }
+      .Y-main .container .y_floor .y_floor_rt .f_banner {
+        width: 606px;
+        height: 284px;
+        overflow: hidden; }
+        .Y-main .container .y_floor .y_floor_rt .f_banner ul {
+          width: 1815px; }
+          .Y-main .container .y_floor .y_floor_rt .f_banner ul li {
+            float: left; }
+      .Y-main .container .y_floor .y_floor_rt .f_special {
+        width: 402px;
+        height: 284px; }
+        .Y-main .container .y_floor .y_floor_rt .f_special a {
+          display: block;
+          width: 201px;
+          float: left;
+          opacity: 0.8; }
+        .Y-main .container .y_floor .y_floor_rt .f_special a:hover {
+          opacity: 1; }
+    .Y-main .container .y_floor .y_floor_rb {
+      width: 1008px;
+      height: 201px; }
+      .Y-main .container .y_floor .y_floor_rb ul li {
+        float: left; }
+        .Y-main .container .y_floor .y_floor_rb ul li a {
+          display: block;
+          padding: 20px 20px 10px 20px;
+          width: 160px;
+          height: 172px;
+          border-right: 1px solid #f3f3f3;
+          color: #333333; }
+          .Y-main .container .y_floor .y_floor_rb ul li a .imgbox {
+            padding: 10px;
+            text-align: center; }
+            .Y-main .container .y_floor .y_floor_rb ul li a .imgbox img {
+              width: 100px;
+              height: 100px; }
+          .Y-main .container .y_floor .y_floor_rb ul li a p {
+            text-align: center;
+            font-size: 14px;
+            line-height: 25px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden; }
+          .Y-main .container .y_floor .y_floor_rb ul li a .medPrice {
+            color: red; }
+      .Y-main .container .y_floor .y_floor_rb ul li:hover a .imgbox {
+        opacity: 0.8; }
+      .Y-main .container .y_floor .y_floor_rb ul li:hover a .medName {
+        color: red;
+        text-decoration: underline; }
+      .Y-main .container .y_floor .y_floor_rb ul li:first-child {
+        margin-left: 3px; }
+  .Y-main .container .y_floor:nth-child(2) {
+    border-top: 2px solid #FFA27A; }
+  .Y-main .container .y_floor:nth-child(3) {
+    border-top: 2px solid #FF6B6B; }
+  .Y-main .container .y_floor:nth-child(4) {
+    border-top: 2px solid #F6C89E; }
+  .Y-main .container .y_floor:nth-child(5) {
+    border-top: 2px solid #AEE177; }
+  .Y-main .container .y_floor:nth-child(6) {
+    border-top: 2px solid #FFACD0; }
+  .Y-main .container .y_floor:nth-child(7) {
+    border-top: 2px solid #CAC3F2; }
+  .Y-main .container .y_floor:nth-child(8) {
+    border-top: 2px solid #FCB0C0; }
+  .Y-main .container .y_floor:nth-child(9) {
+    border-top: 2px solid #CAC3F2; }
+  .Y-main .container .y_floor:nth-child(10) {
+    border-top: 2px solid #16F0CF; }
+
+.Y-links .container {
+  height: 170px;
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px solid #E6E6E6; }
+  .Y-links .container .link_title {
+    height: 34px;
+    border-bottom: 1px solid #E6E6E6;
+    background-color: #F8F8F8; }
+    .Y-links .container .link_title li {
+      float: left;
+      width: 178px;
+      height: 33px;
+      cursor: pointer;
+      border-right: 1px solid #E6E6E6;
+      text-align: center;
+      line-height: 33px;
+      font-size: 12px; }
+    .Y-links .container .link_title .title_active {
+      background-color: #fff; }
+  .Y-links .container .link_bt1 {
+    padding: 15px 0 15px 8px; }

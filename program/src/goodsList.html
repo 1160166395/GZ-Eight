@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商品列表页</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/sass/common.css">
+    <link rel="stylesheet" href="css/sass/goodsList.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="iconfont/font/iconfont.css">
+
+
+    <script type="text/javascript" src="libs/jquery-3.3.1.js"></script>
+	<!-- <script type="text/javascript" src="js/dynamicData.js"></script> -->
+    <script type="text/javascript" src="js/goodList.js"></script>
+    <!-- <script type="text/javascript" src="js/test.js"></script> -->
+</head>
+<body>
+	<div id="yyw">
+		<!-- #####头部##### -->
+		<div id="Y-header">
+            <div class="help-center">
+                <div class="help">
+                    <div class="container">
+                        <div class="province fl">
+                            <span class="f12">送货至</span>
+                            <span class="localProvince f12">广州</span>
+                            <ul class"allProvince"></ul>
+                        </div>             
+                        <ul class="nav-self fr f12">
+                            <li><a href="./login.html" style="border-left:none;">请登录</a></li>
+                            <li><a href="./regist.html">注册</a></li>
+                            <li><a href="#">我的订单</a></li>
+                            <li><a href="#">我的1药网</a></li>
+                            <li><a href="#">帮助中心</a></li>
+                            <li><span>400-007-0958</span></li>
+                            <li><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i>手机APP</a></li>
+                        </ul> 
+                    </div>
+                </div>
+                <div class="container">
+                      
+                    <img src="img/top.jpg" alt="" class="zhounian">
+                    <div class="bottom">
+                        <h1 class="logo fl">
+                            <a href="./index.html"></a>
+                        </h1>
+                        <div class="form fl">
+                            <input type="text" value="整肠生"><button><i class="fa fa-search" aria-hidden="true"></i></button>
+                            <div class="hotword">
+                                <a href="#">欧龙马</a>
+                                <a href="#">非布斯他</a>
+                                <a href="#">护肝片</a>
+                                <a href="#">百令胶囊</a>
+                                <a href="#">草晶华</a>
+                                <a href="#">护理液</a>
+                                <a href="#">创可贴</a>           
+                            </div>
+                        </div>
+                        <div class="right fl">
+                            <img src="img/erweima.jpg" alt="">
+                            <div class="car">
+                                <i class="fa fa-cart-plus" aria-hidden="true" class="cart"></i>
+                                <a href="./shopCar.html" class="together">购物车</a>
+                                <i class="fa fa-arrow-right" aria-hidden="true" class="arrow"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_top">
+                <div class="border">
+                    <div class="container">
+                        <div class="classify fl">
+                            <div>
+                                <span>所有商品分类</span>
+                                <ul class="med_list">
+                                    <li>
+                                        <a href="#">
+                                            <i class="iconfont icon-zhongxiyaopin">
+                                            </i>
+                                            <span>中西药品</span>
+                                            <div class="three fr">
+                                                <div class="one">
+                                                    <dl>
+                                                        <dt>男科疾病</dt>
+                                                        <dd class="border1">阳痿早泄</dd>
+                                                        <dd class="border1">男性不育症</dd>
+                                                        <dd>前列腺炎</dd>
+                                                        <dd class="border1">肾病</dd>
+                                                        <dd class="border1">泌尿系统疾病</dd>
+                                                        <dd>补肾</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt>男科疾病</dt>
+                                                        <dd class="border1">阳痿早泄</dd>
+                                                        <dd class="border1">男性不育症</dd>
+                                                        <dd>前列腺炎</dd>
+                                                        <dd class="border1">肾病</dd>
+                                                        <dd class="border1">泌尿系统疾病</dd>
+                                                        <dd>补肾</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt>男科疾病</dt>
+                                                        <dd class="border1">阳痿早泄</dd>
+                                                        <dd class="border1">男性不育症</dd>
+                                                        <dd>前列腺炎</dd>
+                                                        <dd class="border1">肾病</dd>
+                                                        <dd class="border1">泌尿系统疾病</dd>
+                                                        <dd>补肾</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt>男科疾病</dt>
+                                                        <dd class="border1">阳痿早泄</dd>
+                                                        <dd class="border1">男性不育症</dd>
+                                                        <dd>前列腺炎</dd>
+                                                        <dd class="border1">肾病</dd>
+                                                        <dd class="border1">泌尿系统疾病</dd>
+                                                        <dd>补肾</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt>男科疾病</dt>
+                                                        <dd class="border1">阳痿早泄</dd>
+                                                        <dd class="border1">男性不育症</dd>
+                                                        <dd>前列腺炎</dd>
+                                                        <dd class="border1">肾病</dd>
+                                                        <dd class="border1">泌尿系统疾病</dd>
+                                                        <dd>补肾</dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="one">
+                                                    <dl>
+                                                        <dt>男科疾病</dt>
+                                                        <dd class="border1">阳痿早泄</dd>
+                                                        <dd class="border1">男性不育症</dd>
+                                                        <dd>前列腺炎</dd>
+                                                        <dd class="border1">肾病</dd>
+                                                        <dd class="border1">泌尿系统疾病</dd>
+                                                        <dd>补肾</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt>男科疾病</dt>
+                                                        <dd class="border1">阳痿早泄</dd>
+                                                        <dd class="border1">男性不育症</dd>
+                                                        <dd>前列腺炎</dd>
+                                                        <dd class="border1">肾病</dd>
+                                                        <dd class="border1">泌尿系统疾病</dd>
+                                                        <dd>补肾</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt>男科疾病</dt>
+                                                        <dd class="border1">阳痿早泄</dd>
+                                                        <dd class="border1">男性不育症</dd>
+                                                        <dd>前列腺炎</dd>
+                                                        <dd class="border1">肾病</dd>
+                                                        <dd class="border1">泌尿系统疾病</dd>
+                                                        <dd>补肾</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt>男科疾病</dt>
+                                                        <dd class="border1">阳痿早泄</dd>
+                                                        <dd class="border1">男性不育症</dd>
+                                                        <dd>前列腺炎</dd>
+                                                        <dd class="border1">肾病</dd>
+                                                        <dd class="border1">泌尿系统疾病</dd>
+                                                        <dd>补肾</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt>男科疾病</dt>
+                                                        <dd class="border1">阳痿早泄</dd>
+                                                        <dd class="border1">男性不育症</dd>
+                                                        <dd>前列腺炎</dd>
+                                                        <dd class="border1">肾病</dd>
+                                                        <dd class="border1">泌尿系统疾病</dd>
+                                                        <dd>补肾</dd>
+                                                    </dl>
+                                                </div> 
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="iconfont icon-yangshengbaojian"></i>
+                                            <span>滋补保健</span>
+                                        </a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="iconfont icon-huluobu"></i>
+                                            <span>维生素钙</span>
+                                        </a> 
+                                        <div class="med_tab3">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="iconfont icon-yanjing"></i>
+                                            <span>隐形眼镜</span>
+                                        </a> 
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="iconfont icon-iconset0480"></i>
+                                            <span>医疗器械、健康电器</span>
+                                        </a> 
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="iconfont icon-hufupin"></i>
+                                            <span>药妆个护</span>
+                                        </a> 
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="iconfont icon-tao"></i>
+                                            <span>成人用品</span>
+                                        </a> 
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="iconfont icon-yingeryuyouer"></i>
+                                            <span>母婴专区</span>
+                                        </a> 
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="iconfont icon-rencan"></i>
+                                            <span>参茸花茶、休闲零食</span>
+                                        </a> 
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="iconfont icon-tingzhenqi-copy"></i>
+                                            <span>体检、口腔诊疗</span>
+                                        </a> 
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            
+                        </div>
+                        <ul class="yy_nav fl">
+                                <li><a href="#">首页</a></li>
+                                <li><a href="goodsList.html">家庭常备药</a></li>
+                                <li><a href="goodsList.html">乙肝</a></li>
+                                <li><a href="goodsList.html">减肥瘦身</a></li>
+                                <li><a href="goodsList.html">阳痿早泄</a></li>
+                                <li><a href="goodsList.html">控制三高</a></li>
+                                <li><a href="goodsList.html">儿童医药馆</a></li>
+                                <li><a href="goodsList.html">中药抓药</a></li>
+                                <li class="oversea"><a href="goodsList.html"></i>商家海外购</a></li>
+                                <li><a href="#">掌上1药网</a></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+		<!-- #####商品列表内容##### -->
+		<div id="Y-producelist">
+			<div class="container clearfix">
+				<!-- 左边 -->
+				<div class="producelist_left fl">
+					<div class="itemChooseBox">
+						<h2>维生素</h2>
+						<div class="box">
+							<h3>维生素A</h3>
+							<ul>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+							</ul>
+						</div>
+						<div class="box">
+							<h3>维生素B</h3>
+							<ul>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+							</ul>
+						</div>
+						<div class="box">
+							<h3>维生素C</h3>
+							<ul>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+							</ul>
+						</div>
+						<div class="box">
+							<h3>维生素D</h3>
+							<ul>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+								<li><a href="#">胡萝卜素</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- 浏览记录 -->
+					<div class="info_box">
+						<h2>浏览记录</h2>
+					</div>
+
+					<!-- 左侧广告位置 -->
+					<div class="left_adv">
+						<a href="#">
+							<img src="http://p4.maiyaole.com/img/cmsPage/20179810f5530807152006/180.jpg">
+						</a>
+						<a href="#">
+							<img src="http://p1.maiyaole.com/img/cmsPage/20179810f5530807152006/182310.jpg">
+						</a>
+					</div>
+				</div>
+				<!-- 右边 -->
+				<div class="producelist_right fr">
+					<div class="right_nav">
+						<ul>
+							<li><a href="#">维生素钙</a></li>
+						</ul>
+						<span>搜索结果(<span class="num">1152</span>)</span>
+					</div>
+					<!-- 右上盒子 -->
+					<div class="rightTopBox">
+						<dl class="clearfix">
+							<dt>品牌</dt>
+							<dd>泰诺宁康</dd>
+							<dd>康司达</dd>
+							<dd>威马</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt>保健功能</dt>
+							<dd>提高免疫力</dd>
+							<dd>骨关节养护</dd>
+							<dd>缓解疲劳</dd>
+							<dd>延缓衰老</dd>
+							<dd>增高助长</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt>是否礼盒</dt>
+							<dd>非礼盒</dd>
+							<dd>礼盒</dd>
+							
+							
+						</dl>
+						<dl class="clearfix">
+							<dt>类别</dt>
+							<dd>普通营养剂</dd>
+							<dd>蓝帽子</dd>
+							<dd>OTC</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt>适宜人群</dt>
+							<dd>中老年</dd>
+							<dd>儿童</dd>
+							<dd>成人</dd>
+							<dd>女性</dd>
+							<dd>男性</dd>
+							<dd>孕产妇</dd>
+							<dd>全部适用</dd>
+						</dl>
+					</div>
+					
+					<!-- 右下盒子(详情数据) -->
+					<div class="leftTopBox">
+						<div class="rankList">
+							<ul class="clearfix">
+								<li><a href="#">综合</a></li>
+								<li><a href="#">销量</a></li>
+								<li><a href="#">评论</a></li>
+								<li><a href="#">人气</a></li>
+								<li><a href="#">最新</a></li>
+								<li><a href="#">价格</a></li>
+							</ul>
+						</div>
+						<!-- 商品列表 -->
+						<div class="goodslist">
+							<ul class="itemSearchList clearfix">
+								
+							</ul>
+                        </div>
+                        <ul class="spinner">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+
+                        </ul>
+					</div>
+
+
+				</div> 	
+			</div>
+		</div>
+
+		 <!-- ###底部区域### -->
+         <div id="Y-foot">
+            <div class="foot_commit">
+                <div class="container clearfix">
+                    <div class="jsyh clearfix">
+                        <a href="#"><i></i></a>
+                        <a href="#"><i></i></a>
+                        <a href="#"><i></i></a>
+                        <a href="#"><i></i></a>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <!-- 二维码区 -->
+            <div class="er_code">
+                <div class="container">
+                    <ul>
+                        <li>
+                            <img src="img/erweima1.jpg" >
+                            <div class="code_r">
+                                <h2 class="h2_tt">1药网客户端</h2>
+                                <p class="intro">APP专享价更优惠<br>购物满69满免邮<br>超低移动专享价<br>药监认证，正品保障
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/erweima2.jpg" >
+                            <div class="code_r">
+                                <h2 class="h2_tt">1诊客户端</h2>
+                                <p class="intro">3分钟快速连线名医<br>寻医生问药，一站完成<br>一键提交，自动来电<br>电子档案，永久追溯
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/erweima3.jpg" >
+                            <div class="code_r">
+                                <h2 class="h2_tt">微信公众号</h2>
+                                <p class="intro">最全的健康资讯<br>掌上购药，轻松一点<br>最新优惠，一网打尽
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 配送方式区 -->
+            <div class="service_con">
+                <div class="container">
+                    <dl class="first_dl">
+                        <dt>新手入门</dt>
+                        <dd><a href="#">常见问题</a></dd>
+                        <dd><a href="#">新会员注册</a></dd>
+                        <dd><a href="#">用户登录</a></dd>
+                        <dd><a href="#">找回密码</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>购物指南</dt>
+                        <dd><a href="#">购物流程</a></dd>
+                        <dd><a href="#">订单状态说明</a></dd>
+                        <dd><a href="#">隐私声明</a></dd>
+                        <dd><a href="#">发票制度</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>配送服务</dt>
+                        <dd><a href="#">范围、时间及费用</a></dd>
+                        <dd><a href="#">商品验货及签收</a></dd>
+                        <dd><a href="#">门店自提</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>支付方式</dt>
+                        <dd><a href="#">货到付款</a></dd>
+                        <dd><a href="#">网上支付</a></dd>
+                        <dd><a href="#">银行转账</a></dd>
+                        <dd><a href="#">激活优惠券</a></dd>
+                        <dd><a href="#">优惠券使用指南</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>售后服务</dt>
+                        <dd><a href="#">退换货政策</a></dd>
+                        <dd><a href="#">退换货流程</a></dd>
+                        <dd><a href="#">退款方式和时效</a></dd>
+                        <dd><a href="#">售后常见问题</a></dd>
+                        <dd><a href="#">正品保障</a></dd>
+                        <dd><a href="#">品牌售后</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>企业服务</dt>
+                        <dd><a href="#">供应商合作</a></dd>
+                        <dd><a href="#">供应商入口</a></dd>
+                        <dd><a href="#">商家入驻</a></dd>
+                                    
+                    </dl>
+
+                    <div class="service_port">
+                        <p class="tel">400-007-0958</p>
+                        <p class="service_time">周一到周日 09:00-21:00<br>（收取市话费）</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+                <!-- 底部许可信息 -->
+                <div class="licence">
+                    <div class="container">
+                        <p>
+                            <a href="#">关于111集团</a>
+                            <a href="#">关于1药网</a>
+                            <a href="#">诚征英才</a>
+                            <a href="#">直营实体药房</a>
+                            <a href="#">互联网药品信息服务资格证</a>
+                            <a href="#">互联网药品交易资格证: 粤C20150007</a>
+                        </p>
+                            <p>
+                            <a href="#">连锁印业执照</a>
+                            <a href="#">药品经营许可证</a>
+                            <a href="#">医疗器械许可证</a>
+                            <a href="#">食品经营许可证</a>
+                            <a href="#">GSP证书</a>
+                            <a href="#">ICP粤B2-20150066</a>
+                        </p>
+                        <div class="sf_verify">
+                            <img src="img/bottom.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- 地址 -->
+                <p class="address_yy">1药网网上药店，国家药监局认证通过的合法网上药店，中国医药电子商务行业的开拓者领跑者。http://www.miitbeian.gov.cn" rel="nofollow">粤ICP备12015869号-1<br>
+                公司名称：广东壹号大药房连锁有限公司 公司地址：广东省广州市越秀区共和西路1号2层 联系电话：020-31067218</p>
+                <!-- 备案号 -->
+                <div class="copy_right">Copyright (C) 2010-2015 1药网版权所有
+                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010402000743"  rel="nofollow"><i class="copy_ico"></i>公安备案号 44010402000743
+                    </a>
+                </div>
+        </div>
+
+	</div>
+	
+	
+</body>
+
+</html>

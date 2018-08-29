@@ -1,0 +1,161 @@
+.yy_cart{
+    background: #f8f8f8;
+    height: 30px;
+    .cart_top{
+        .container{
+            width: 980px;
+            line-height:30px;
+            .top_l{
+                li{
+                    float:left;
+                    a{
+                        font-size:12px;
+                        color:black;
+                        padding: 0 15px;
+
+                    }
+                    select {
+                        outline:none;
+                    }
+                }
+                li:first-child {
+                    a{
+                        border-right:1px solid #ccc;
+                    }
+                }
+
+            }
+            .top_r{
+                li{
+                    float:left;
+                    font-size: 12px;
+                    span{
+                        padding:0 10px;
+                        border-right:1px solid black;
+                        a{
+                            padding-right:5px;
+                            color:#5e5e5e;
+
+                        }
+                    }
+
+                    
+
+                }
+                li:nth-child(2){
+                    a{
+                        color:#0083ce;
+                    }
+                    
+                }
+            }
+        }
+    }
+
+    //中间位置部分
+    .cart_position{
+        
+        .container{
+            width: 980px;
+            height: 100px;
+            padding:20px 0;
+            h2{
+                width: 180px;
+                height: 60px;
+                float:left;
+                background:url("../../img/logo2.png") no-repeat;
+            }
+            .pos{
+                width: 570px;
+                height: 32px;
+
+                background:url("../../img/cart_pic.png") no-repeat;
+            }
+        }
+    }
+
+    
+
+
+    
+    
+}//yy_cart$
+
+
+//购物车内容部分
+// .cart_main{
+//     .container{
+//         .cart_table{
+//             width: 1200px;
+//             text-align:center;
+            
+//             .qty{
+//                 height: 20px;
+//                 background: #000;
+//             }
+//             .del{
+//                 span{
+//                     width: 40px;
+//                     height: 30px;
+//                     background: #b01d03;
+//                     color:#fff;
+//                 }
+//             }
+//             .singlePrice{
+//                 font-weight:bold;
+//             }
+//             .goodsname{
+//                 color:#fff;
+//             }
+            
+//             .cart_th{
+//                 width:1200px;
+//                  margin-bottom: 10px;
+//                  height: 34px;
+//                  line-height: 34px;
+//                  border: 1px solid #ececec;
+//                  background-color: #f3f3f3;
+
+//             }
+
+//             img{
+//                 width: 60px;
+//                 height: 60px;
+//             }
+//             td{
+//                 color: #fff;
+//                 font-size: 12px;
+//                 line-height: 20px;
+//                 margin-top: -2px;
+//                 overflow: hidden;
+//                 text-overflow: ellipsis;
+//             }
+//             tr{
+//                 background-color: #EAF9FF;
+//                 border-bottom: 1px solid #D1E9F2;
+//                 td:nth-last-child(2){
+//                 color: #e71a0f;
+//                 }
+//             }
+            
+//         }
+//         .btn{
+//             margin:10px 10px 0 10px;
+//             span{
+//                 display:block;
+//                 line-height:30px;
+//                 color:rgb(255, 0, 0);
+
+//             }
+//             button{
+//                 color: #EAF9FF;
+//                 background: #b01d03;
+//                 padding:7px;
+//             }
+//             p{
+//                 float:left;
+//                 line-height:30px;
+//             }
+//         }
+//     }
+// }

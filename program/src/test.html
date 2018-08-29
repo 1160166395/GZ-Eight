@@ -1,0 +1,135 @@
+<!-- <html>
+<head>
+  <style>
+  ul { margin-left:20px; color:blue; }
+  li { cursor:default; }
+  li.active { background:black;color:white; }
+  span { color:red; }
+  </style>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+  <ul>
+    <li>Milk</li>
+    <li>White</li>
+    <li>Carrots</li>
+    <li>Orange</li>
+    <li>Broccoli</li>
+    <li>Green</li>
+  </ul>
+<script>
+$("li")
+.filter(":odd")
+.hide()
+ .end()
+.filter(":even")
+.hover(
+  function () {
+    $(this).toggleClass("active")
+      .next().stop(true, true).slideToggle();
+  }
+);
+</script>
+ 
+</body>
+</html> -->
+
+
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>无限翻页测试</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <style type="text/css">
+    #spinner{
+        position: fixed;
+        top: 20px;
+        left: 40%;
+        display: block;
+        color: red;
+        font-weight: 900;
+        background-color: rgba(80, 80, 90, 0.22);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+        border-radius: 15px;
+    }
+    </style>
+</head>
+<body>
+    <div id="sample">
+    </div>
+    <div id="spinner">
+        正在加载
+    </div>
+    <script type="text/javascript">
+        var index = 0;
+        function lowEnough(){
+            var pageHeight = Math.max(document.body.scrollHeight,document.body.offsetHeight);
+            var viewportHeight = window.innerHeight || 
+                document.documentElement.clientHeight ||
+                document.body.clientHeight || 0;
+            var scrollHeight = window.pageYOffset ||
+                document.documentElement.scrollTop ||
+                document.body.scrollTop || 0;
+            // console.log(pageHeight);
+            // console.log(viewportHeight);
+            // console.log(scrollHeight);
+            return pageHeight - viewportHeight - scrollHeight < 20;
+        }
+
+        function doSomething(){
+            var htmlStr = "";
+            for(var i=0;i<10;i++){
+                htmlStr += "这是第"+index+"次加载<br>";
+            }
+            $('#sample').append(htmlStr);
+            index++;
+            pollScroll();//继续循环
+            $('#spinner').hide();
+        }
+
+        function checkScroll(){
+            if(!lowEnough()) return pollScroll();
+
+            $('#spinner').show();
+            setTimeout(doSomething,900);
+            
+        }
+        function pollScroll(){
+            setTimeout(checkScroll,1000);
+        }
+        checkScroll();
+    </script>
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="datas.json">
+    <script src="js/test.js"></script>
+</head>
+<body>
+    
+</body>
+</html> -->
+
+<script>
+
+    var arr = [2,'a','c','g','l',7,2,'a','l'];
+    var arr_new = arr.filter(function(element,index,array){
+        return array.indexOf(element) === index;
+    })
+    console.log(arr);
+
+    console.log(arr_new)
+
+
+</script>
